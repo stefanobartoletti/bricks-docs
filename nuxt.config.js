@@ -11,6 +11,11 @@ export default withDocus({
   pwa: {
     icon: {
       source: 'static/icon.png',
+    },
+    manifest :{
+      name: 'Bricks Documentation',
+      short_name: 'Bricks Documentation',
+      description: 'Documentation for Bricks, a modular WordPress starter theme'
     }
   }
 })
