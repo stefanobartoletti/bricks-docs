@@ -8,4 +8,9 @@ export default withDocus({
       code: '#7137c8'
     }
   },
+  pwa: {
+    icon: {
+      source: 'static/icon.png',
+    }
+  }
 })
