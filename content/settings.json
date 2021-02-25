@@ -1,6 +1,10 @@
 {
-  "title": "Docus Starter",
-  "url": "https://starter.docus.dev",
-  "github": "nuxt/docus-starter",
-  "twitter": "nuxt_js"
+  "title": "Bricks Documentation",
+  "url": "https://bricks.stefanobartoletti.it",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "stefanobartoletti/bricks-docs",
+  "twitter": "ste_bartoletti"
 }
