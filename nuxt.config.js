@@ -15,7 +15,7 @@ export default withDocus({
     manifest :{
       name: 'Bricks Documentation',
       short_name: 'Bricks Documentation',
-      description: 'A modular WordPress starter theme powered by Boostrap and Gulp'
+      description: 'A modular WordPress starter theme powered by Bootstrap and Gulp'
     }
   }
 })
