@@ -17,5 +17,11 @@ export default withDocus({
       short_name: 'Bricks Documentation',
       description: 'A modular WordPress starter theme powered by Bootstrap and Gulp'
     }
+  },
+  modules: [
+    '@nuxtjs/gtm',
+  ],
+  gtm: {
+    id: 'GTM-NNXNK4M'
   }
 })
