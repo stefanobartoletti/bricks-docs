@@ -8,7 +8,7 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "@nuxtjs/gtm": "^2.4.0",
+    "@nuxtjs/google-gtag": "^1.0.4",
     "docus": "^0.0.8",
     "nuxt": "^2.15.0"
   }

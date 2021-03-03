@@ -19,9 +19,13 @@ export default withDocus({
     }
   },
   modules: [
-    '@nuxtjs/gtm',
+    '@nuxtjs/google-gtag'
   ],
-  gtm: {
-    id: 'GTM-NNXNK4M'
-  }
+  'google-gtag': {
+    id: 'G-5RSCHK9FFB',
+    config: {
+      anonymize_ip: true, // anonymize IP 
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+    }
+  },
 })
