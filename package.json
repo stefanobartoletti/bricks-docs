@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",
     "docus": "^0.0.8",
     "nuxt": "^2.15.0"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
   }
 }
