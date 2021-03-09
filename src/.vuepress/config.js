@@ -4,6 +4,8 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }],
         ['meta', { name: 'theme-color', content: '#37c871' }],
+        ['meta', { charset: 'utf-8' }],
+        ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
         ['meta', { name: 'title', content: 'Bricks Documentation' }],
         ['meta', { name: 'og:locale', content: 'en_US' }],
         ['meta', { name: 'og:type', content: 'website' }],
