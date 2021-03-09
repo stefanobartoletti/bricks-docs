@@ -18,8 +18,6 @@ It is lightweight and SEO friendly, by optimizing all of its assets and using se
 
 ## Main features
 
-<list :items="features"></list>
-
 ## About 
 
 I have built Bricks mainly for personal use, but I also believe that it has potential and could be an interesting project also for other developers: that's why after two years of internal development and testing I decided to release it publicly. It is, as a matter of fact, my first open-source project.
