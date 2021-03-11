@@ -19,4 +19,19 @@ module.exports = {
         ['meta', { name: 'twitter:image', content: 'https://bricks.stefanobartoletti.it/preview.png' }]
     ],
     dest: 'dist',
+    themeConfig: {
+        logo: '/logo-light.svg',
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Documentation', link: '/documentation/' },
+        ],
+        sidebar: [
+
+        ],
+        repo: 'stefanobartoletti/bricks',
+        docsRepo: 'stefanobartoletti/bricks-docs',
+        docsDir: 'src',
+        editLinks: true,
+        smoothScroll: true,
+    }
 }
