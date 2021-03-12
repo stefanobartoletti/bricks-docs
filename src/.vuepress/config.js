@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Bricks Documentation',
+    title: 'Bricks',
     description: 'A modular WordPress starter theme powered by Bootstrap and Gulp',
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }],
@@ -20,7 +20,7 @@ module.exports = {
     ],
     dest: 'dist',
     themeConfig: {
-        logo: '/logo-light.svg',
+        logo: '/bricks-logo.svg',
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Documentation', link: '/documentation/' },
