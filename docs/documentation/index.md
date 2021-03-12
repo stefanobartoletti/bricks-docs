@@ -18,6 +18,17 @@ It is lightweight and SEO friendly, by optimizing all of its assets and using se
 
 ## Main features
 
+  - [Bootstrap 4](https://getbootstrap.com/) (compiled from source Sass files, JavaScript from [Bootstrap Native](https://github.com/thednp/bootstrap.native/))
+  - [WP Bootstrap Navwalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker)
+  - Custom [Gulp](https://gulpjs.com/) tasks
+  - [Font Awesome 5](https://fontawesome.com/) (*SVG with JavaScript version*, parsed and minified by [gulp-fa-minify](https://github.com/FA-Minify/gulp-fa-minify))
+  - CSS bundling, including [Autoprefixer](https://autoprefixer.github.io/) and [PurgeCSS](https://purgecss.com/)
+  - JavaScript bundling with [Rollup](https://www.rollupjs.org/) and [Babel](https://babeljs.io/)
+  - [BrowserSync](https://www.browsersync.io/)
+  - Automatic conversion of custom fonts into *woff/woff2* web formats
+  - Support for localization by generation of a `.pot` [template file](https://developer.wordpress.org/themes/functionality/internationalization/)
+  - Support for integration of some optional JavaScript libraries
+
 ## About 
 
 I have built Bricks mainly for personal use, but I also believe that it has potential and could be an interesting project also for other developers: that's why after two years of internal development and testing I decided to release it publicly. It is, as a matter of fact, my first open-source project.
