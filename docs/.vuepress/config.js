@@ -30,7 +30,7 @@ module.exports = {
         ],
         repo: 'stefanobartoletti/bricks',
         docsRepo: 'stefanobartoletti/bricks-docs',
-        docsDir: 'src',
+        docsDir: 'docs',
         editLinks: true,
         smoothScroll: true,
     }
