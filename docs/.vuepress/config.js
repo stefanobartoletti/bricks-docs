@@ -24,43 +24,55 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Documentation', link: '/documentation/' },
+            { text: 'About', link: '/about/' },
         ],
-        sidebar: [
-            {
-                title: 'Get started',
-                collapsable: false,
-                children: [
-                    '/documentation/',
-                    '/documentation/setup/',
-                    '/documentation/configuration/',
-                    '/documentation/scripts/',
-                ]
-            },
-            {
-                title: 'Theme',
-                collapsable: false,
-                children: [
-                    '/documentation/folders/',
-                    '/documentation/functions/',
-                    '/documentation/bootstrap/',
-                    '/documentation/fontawesome/',
-                    '/documentation/integrations/',
-                ]
-            },
-            {
-                title: 'Assets',
-                collapsable: false,
-                children: [
-                    '/documentation/css/',
-                    '/documentation/javascript/',
-                    '/documentation/images/',
-                    '/documentation/fonts/',
-                    '/documentation/icons/',
-                    '/documentation/localization/',
-                    '/documentation/libraries/',
-                ]
-            },
-        ],
+        sidebar: {
+            '/documentation/': [
+                {
+                    title: 'Get started',
+                    collapsable: false,
+                    children: [
+                        '/documentation/',
+                        '/documentation/setup/',
+                        '/documentation/configuration/',
+                        '/documentation/scripts/',
+                    ]
+                },
+                {
+                    title: 'Theme',
+                    collapsable: false,
+                    children: [
+                        '/documentation/folders/',
+                        '/documentation/functions/',
+                        '/documentation/bootstrap/',
+                        '/documentation/fontawesome/',
+                        '/documentation/integrations/',
+                    ]
+                },
+                {
+                    title: 'Assets',
+                    collapsable: false,
+                    children: [
+                        '/documentation/css/',
+                        '/documentation/javascript/',
+                        '/documentation/images/',
+                        '/documentation/fonts/',
+                        '/documentation/icons/',
+                        '/documentation/localization/',
+                        '/documentation/libraries/',
+                    ]
+                },
+            ],
+            '/about/': [
+                {
+                    collapsable: false,
+                    children: [
+                        '/about/',
+                        '/about/author/',
+                    ]
+                },
+            ]
+        },
         repo: 'stefanobartoletti/bricks',
         docsRepo: 'stefanobartoletti/bricks-docs',
         docsDir: 'docs',
