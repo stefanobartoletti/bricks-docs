@@ -21,58 +21,6 @@ module.exports = {
     dest: 'dist',
     themeConfig: {
         logo: '/bricks-logo.svg',
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Theme', link: '/theme/' },
-            { text: 'About', link: '/about/' },
-        ],
-        sidebar: {
-            '/theme/': [
-                {
-                    title: 'Get started',
-                    collapsable: false,
-                    children: [
-                        '/theme/',
-                        '/theme/setup/',
-                        '/theme/configuration/',
-                        '/theme/scripts/',
-                    ]
-                },
-                {
-                    title: 'Theme',
-                    collapsable: false,
-                    children: [
-                        '/theme/folders/',
-                        '/theme/functions/',
-                        '/theme/bootstrap/',
-                        '/theme/fontawesome/',
-                        '/theme/integrations/',
-                    ]
-                },
-                {
-                    title: 'Assets',
-                    collapsable: false,
-                    children: [
-                        '/theme/css/',
-                        '/theme/javascript/',
-                        '/theme/images/',
-                        '/theme/fonts/',
-                        '/theme/icons/',
-                        '/theme/localization/',
-                        '/theme/libraries/',
-                    ]
-                },
-            ],
-            '/about/': [
-                {
-                    collapsable: false,
-                    children: [
-                        '/about/',
-                        '/about/author/',
-                    ]
-                },
-            ]
-        },
         repo: 'stefanobartoletti/bricks',
         docsRepo: 'stefanobartoletti/bricks-docs',
         docsDir: 'docs',
