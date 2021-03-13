@@ -1,8 +1,10 @@
 ---
 title: Functions
+lang: en-US
 description: 'functions.php'
-category: 'Theme'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Lorem
 

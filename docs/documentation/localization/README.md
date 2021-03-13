@@ -1,8 +1,10 @@
 ---
 title: Localization
+lang: en-US
 description: 'How Bricks manages translations'
-category: 'Assets'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Lorem
 

@@ -1,8 +1,10 @@
 ---
 title: Scripts & Tasks
+lang: en-US
 description: 'Development scripts and Gulp tasks'
-category: 'Getting started'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Scripts
 

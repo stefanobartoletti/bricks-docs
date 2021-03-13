@@ -1,8 +1,10 @@
 ---
 title: Images
+lang: en-US
 description: 'How Bricks manages images'
-category: 'Assets'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Lorem
 

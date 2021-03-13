@@ -1,8 +1,10 @@
 ---
 title: Folder Structure
+lang: en-US
 description: 'Configutation options'
-category: 'Theme'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Lorem
 

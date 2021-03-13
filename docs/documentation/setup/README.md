@@ -1,8 +1,10 @@
 ---
 title: Setup
+lang: en-US
 description: 'How to setup Bricks and start developing your theme'
-category: 'Getting started'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Requirements
 

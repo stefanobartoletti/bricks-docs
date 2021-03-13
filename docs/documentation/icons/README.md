@@ -1,8 +1,10 @@
 ---
 title: Icons
+lang: en-US
 description: 'How Bricks manages icons'
-category: 'Assets'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Lorem
 

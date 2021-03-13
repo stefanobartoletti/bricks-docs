@@ -1,8 +1,10 @@
 ---
 title: Integrations
+lang: en-US
 description: 'functions.php'
-category: 'Theme'
 ---
+
+# {{ $frontmatter.title }}
 
 ## ACF
 

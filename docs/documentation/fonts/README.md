@@ -1,8 +1,10 @@
 ---
 title: Fonts
+lang: en-US
 description: 'How Bricks manages fonts'
-category: 'Assets'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Lorem
 

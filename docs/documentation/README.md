@@ -4,7 +4,7 @@ lang: en-US
 description: 'A modular WordPress starter theme powered by Bootstrap and Gulp'
 ---
 
-<img src="/preview.png" alt="Bricks WordPress starter theme"/>
+# {{ $frontmatter.title }}
 
 ## Overview
 

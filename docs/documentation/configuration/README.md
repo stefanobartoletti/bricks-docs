@@ -1,8 +1,10 @@
 ---
 title: Configuration
+lang: en-US
 description: 'Configuration options'
-category: 'Getting started'
 ---
+
+# {{ $frontmatter.title }}
 
 Some configuration variables are available in `.config.js`.
 

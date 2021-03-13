@@ -26,7 +26,40 @@ module.exports = {
             { text: 'Documentation', link: '/documentation/' },
         ],
         sidebar: [
-
+            {
+                title: 'Get started',
+                collapsable: false,
+                children: [
+                    '/documentation/',
+                    '/documentation/setup/',
+                    '/documentation/configuration/',
+                    '/documentation/scripts/',
+                ]
+            },
+            {
+                title: 'Theme',
+                collapsable: false,
+                children: [
+                    '/documentation/folders/',
+                    '/documentation/functions/',
+                    '/documentation/bootstrap/',
+                    '/documentation/fontawesome/',
+                    '/documentation/integrations/',
+                ]
+            },
+            {
+                title: 'Assets',
+                collapsable: false,
+                children: [
+                    '/documentation/css/',
+                    '/documentation/javascript/',
+                    '/documentation/images/',
+                    '/documentation/fonts/',
+                    '/documentation/icons/',
+                    '/documentation/localization/',
+                    '/documentation/libraries/',
+                ]
+            },
         ],
         repo: 'stefanobartoletti/bricks',
         docsRepo: 'stefanobartoletti/bricks-docs',

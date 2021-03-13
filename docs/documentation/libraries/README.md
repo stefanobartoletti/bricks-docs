@@ -1,8 +1,11 @@
 ---
 title: JavaScript Libraries
+lang: en-US
 description: 'Optional integration of some Javascript libraries'
-category: 'Assets'
 ---
+
+# {{ $frontmatter.title }}
+
 
 ## Lorem
 
@@ -13,4 +16,3 @@ Ipsum
 ## AOS
 
 ## Lightgallery.js
-

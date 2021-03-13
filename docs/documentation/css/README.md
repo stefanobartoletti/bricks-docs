@@ -1,8 +1,10 @@
 ---
 title: CSS
+lang: en-US
 description: 'How Bricks manages CSS'
-category: 'Assets'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Lorem
 

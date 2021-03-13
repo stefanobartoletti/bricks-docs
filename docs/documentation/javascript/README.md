@@ -1,8 +1,10 @@
 ---
 title: JavaScript
+lang: en-US
 description: 'How Bricks manages JavaScript'
-category: 'Assets'
 ---
+
+# {{ $frontmatter.title }}
 
 ## Lorem
 
