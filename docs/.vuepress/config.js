@@ -23,43 +23,43 @@ module.exports = {
         logo: '/bricks-logo.svg',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Documentation', link: '/documentation/' },
+            { text: 'Theme', link: '/theme/' },
             { text: 'About', link: '/about/' },
         ],
         sidebar: {
-            '/documentation/': [
+            '/theme/': [
                 {
                     title: 'Get started',
                     collapsable: false,
                     children: [
-                        '/documentation/',
-                        '/documentation/setup/',
-                        '/documentation/configuration/',
-                        '/documentation/scripts/',
+                        '/theme/',
+                        '/theme/setup/',
+                        '/theme/configuration/',
+                        '/theme/scripts/',
                     ]
                 },
                 {
                     title: 'Theme',
                     collapsable: false,
                     children: [
-                        '/documentation/folders/',
-                        '/documentation/functions/',
-                        '/documentation/bootstrap/',
-                        '/documentation/fontawesome/',
-                        '/documentation/integrations/',
+                        '/theme/folders/',
+                        '/theme/functions/',
+                        '/theme/bootstrap/',
+                        '/theme/fontawesome/',
+                        '/theme/integrations/',
                     ]
                 },
                 {
                     title: 'Assets',
                     collapsable: false,
                     children: [
-                        '/documentation/css/',
-                        '/documentation/javascript/',
-                        '/documentation/images/',
-                        '/documentation/fonts/',
-                        '/documentation/icons/',
-                        '/documentation/localization/',
-                        '/documentation/libraries/',
+                        '/theme/css/',
+                        '/theme/javascript/',
+                        '/theme/images/',
+                        '/theme/fonts/',
+                        '/theme/icons/',
+                        '/theme/localization/',
+                        '/theme/libraries/',
                     ]
                 },
             ],
