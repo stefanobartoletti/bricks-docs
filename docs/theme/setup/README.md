@@ -14,24 +14,19 @@ description: 'How to setup Bricks and start developing your theme'
 
 ## Installation
 
-- Clone Bricks from its [repository](https://github.com/stefanobartoletti/bricks) directly inside the `wp-content/themes` directory in your WordPress installation.
-
-    <code-block active>
+- Clone Bricks from its [repository](https://github.com/stefanobartoletti/bricks) directly inside the `wp-content/themes` directory in your WordPress installation:
 
     ```bash
     git clone https://github.com/stefanobartoletti/bricks.git
     ```
 
-    </code-block>
-
 - Delete `.git` directory inside the newly created `bricks` theme folder and initialize a new repository from scratch (Optional).
 
-- Install dependencies with your package manager (the install script will also perform the initial setup).
+- Install dependencies with your package manager (the install script will also perform the initial setup):
 
     <code-group>
 
-    <code-block label="Yarn" active> 
-
+    <code-block title="Yarn" active> 
     ```bash
     yarn install
     # or simply
@@ -39,12 +34,10 @@ description: 'How to setup Bricks and start developing your theme'
     ```
     </code-block>
 
-    <code-block label="npm"> 
-
+    <code-block title="npm"> 
     ```bash
     npm install
     ```
-
     </code-block>
-
+    
     </code-group>

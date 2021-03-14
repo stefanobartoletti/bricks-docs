@@ -9,68 +9,61 @@ description: 'Development scripts and Gulp tasks'
 ## Scripts
 
 Bricks comes with some predefined scripts, which are handy aliases to pre-configured Gulp serial tasks. **Yarn** is the preferred way to run scripts, but it is also possible to run them with plain **npm**.
-### dev
+
+---
 
 <code-group>
 
-<code-block label="Yarn" active> 
-
+<code-block title="Yarn" active> 
 ```bash
 yarn dev
 ```
 </code-block>
 
-<code-block label="npm"> 
-
+<code-block title="npm"> 
 ```bash
 npm run dev
 ```
-
 </code-block>
 
 </code-group>
 
-This script compiles all resources for a development environment (it uses `NODE_ENV=development` value). It is also run as a post-install script after the initial installation.
+This script compiles all resources for a development environment (it uses `NODE_ENV=development` value). It is also automatically run as a post-install script after the initial installation.
 
-### watch
+---
 
 <code-group>
 
-<code-block label="Yarn" active> 
-
+<code-block title="Yarn" active> 
 ```bash
 yarn watch
 ```
 </code-block>
 
-<code-block label="npm"> 
-
+<code-block title="npm"> 
 ```bash
 npm run watch
 ```
-
 </code-block>
 
 </code-group>
 
 This script starts both [Gulp watcher](https://gulpjs.com/docs/en/getting-started/watching-files/) and [BrowserSync](https://www.browsersync.io/), to automatically compile modified resources on-the-fly and inject them in your browser, during local development (like **dev**, it uses `NODE_ENV=development` value).
-### build
+
+---
 
 <code-group>
 
-<code-block label="Yarn" active> 
-
+<code-block title="Yarn" active> 
 ```bash
 yarn build
 ```
 </code-block>
 
-<code-block label="npm"> 
-
+<code-block title="npm"> 
 ```bash
 npm run build
 ```
-
 </code-block>
 
 </code-group>
@@ -81,52 +74,52 @@ This script compiles all resources for a production environment (it uses `NODE_E
 
 Scripts described above should be sufficient in most cases, but if needed, Gulp is configured to expose indivudual sub-task that can be run separately, to quickly recompile a single resource type. When running tasks this way `NODE_ENV=development` is used, so resources won't be optimized for production.
 
-These sub-tasks are not defined within `package.json`, and it is advised to install [gulp-cli](https://github.com/gulpjs/gulp-cli) globally to easily use them (just run `npm install -g gulp-cli`)
+Since these sub-tasks are not intended to be regularly used dureing the development process, they are not defined as scripts within `package.json` and should be run direclty with Gulp. It is advised to install [gulp-cli](https://github.com/gulpjs/gulp-cli) globally to easily use them (just run `npm install -g gulp-cli`).
 
-### Css
+---
 
 ```bash
 gulp css
 ```
 
-Compiles source Sass files into final CSS (more details on <nuxt-link to="/css">CSS</nuxt-link> page).
+Compiles source Sass files into final CSS (more details on [CSS](/theme/css/) page).
 
-### JavaScript
+---
 
 ```bash
 gulp js
 ```
 
-Compiles source JavaScript files into final bundles (more details on <nuxt-link to="/javascript">JavaScript</nuxt-link> page).
+Compiles source JavaScript files into final bundles (more details on [JavaScript](/theme/javascript) page).
 
-### Images
+---
 
 ```bash
 gulp img
 ```
 
-Optimizes source image files (more details on <nuxt-link to="/images">images</nuxt-link> page).
+Optimizes source image files (more details on [Images](/theme/images/) page).
 
-### Fonts
+---
 
 ```bash
 gulp fonts
 ```
 
-Convert source font files into optimized web formats (more details on <nuxt-link to="/fonts">fonts</nuxt-link> page).
+Convert source font files into optimized web formats (more details on [Fonts](/theme/fonts/) page).
 
-### Icons
+---
 
 ```bash
 gulp icons
 ```
 
-Copies source **Font Awesome** JavaScript file into `./dist` folder. Since it will be optimized only for production, running this task individually has no practical use (more details on <nuxt-link to="/icons">icons</nuxt-link> page).
+Copies source **Font Awesome** JavaScript file into `./dist` folder. Since it will be optimized only for production, running this task individually has no practical use (more details on [Icons](/theme/icons/) page).
 
-### Localization
+---
 
 ```bash
 gulp pot
 ```
 
-Scans PHP files for [localization functions](https://developer.wordpress.org/apis/handbook/internationalization/internationalization-functions/) and writes a `.pot` template file (more details on <nuxt-link to="/localization">localization</nuxt-link> page).
+Scans PHP files for [localization functions](https://developer.wordpress.org/apis/handbook/internationalization/internationalization-functions/) and writes a `.pot` template file (more details on [Localization](/theme/localization/) page).
