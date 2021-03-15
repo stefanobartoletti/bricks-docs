@@ -16,20 +16,14 @@ module.exports = {
         ['meta', { name: 'twitter:site', content: '@ste_bartoletti' }],
         ['meta', { name: 'twitter:title', content: 'Bricks Documentation' }],
         ['meta', { name: 'twitter:description', content: "A modular WordPress starter theme powered by Bootstrap and Gulp" }],
-        ['meta', { name: 'twitter:image', content: 'https://bricks.stefanobartoletti.it/preview.png' }]
+        ['meta', { name: 'twitter:image', content: 'https://bricks.stefanobartoletti.it/preview.png' }],
+        ['meta', { name: 'google-site-verification', content: 'snVUv6mUDur4MkL3CDDFGFDv7TPFm4vAk5BAfK-cDsw' }]
     ],
     dest: 'dist',
     plugins: [
         [
-            'vuepress-plugin-google-tag-manager', 
-            {
+            'vuepress-plugin-google-tag-manager', {
                 gtm: 'GTM-NNXNK4M',
-            }
-        ],
-        [
-            '@vuepress/google-analytics',
-            {
-                ga: 'UA-00000000-0',
             }
         ]
     ], 
