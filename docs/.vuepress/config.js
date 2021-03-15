@@ -25,6 +25,11 @@ module.exports = {
             'vuepress-plugin-google-tag-manager', {
                 gtm: 'GTM-NNXNK4M',
             }
+        ],
+        [
+            'sitemap', {
+                hostname: 'https://bricks.stefanobartoletti.it'
+            },
         ]
     ], 
     themeConfig: {
