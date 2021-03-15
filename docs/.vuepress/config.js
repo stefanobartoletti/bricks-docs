@@ -19,6 +19,20 @@ module.exports = {
         ['meta', { name: 'twitter:image', content: 'https://bricks.stefanobartoletti.it/preview.png' }]
     ],
     dest: 'dist',
+    plugins: [
+        [
+            'vuepress-plugin-google-tag-manager', 
+            {
+                gtm: 'GTM-NNXNK4M',
+            }
+        ],
+        [
+            '@vuepress/google-analytics',
+            {
+                ga: 'UA-00000000-0',
+            }
+        ]
+    ], 
     themeConfig: {
         logo: '/bricks-logo.svg',
         repo: 'stefanobartoletti/bricks',
