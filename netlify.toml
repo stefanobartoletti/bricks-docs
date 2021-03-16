@@ -1,0 +1,19 @@
+[build]
+  base = "/"
+  publish = "dist/"
+  command = "yarn build"
+
+[[redirects]]
+  from = "https://bricks-docs.netlify.app"
+  to = "https://bricks.stefanobartoletti.it"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "strict-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubdomains"
