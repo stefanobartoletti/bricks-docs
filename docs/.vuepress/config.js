@@ -37,6 +37,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Theme', link: '/theme/' },
+            { text: 'Integrations', link: '/integrations/' },
             { text: 'About', link: '/about/' },
         ],
         sidebar: {
@@ -59,7 +60,6 @@ module.exports = {
                         '/theme/functions/',
                         '/theme/bootstrap/',
                         '/theme/fontawesome/',
-                        '/theme/integrations/',
                     ]
                 },
                 {
@@ -72,7 +72,36 @@ module.exports = {
                         '/theme/fonts/',
                         '/theme/icons/',
                         '/theme/localization/',
-                        '/theme/libraries/',
+                    ]
+                },
+            ],
+            '/integrations/': [
+                {
+                    title: 'WordPress',
+                    collapsable: false,
+                    children: [
+                        '/integrations/',
+                        '/integrations/wordpress/',
+                        '/integrations/woocommerce/',
+                        '/integrations/acf/',
+                        '/integrations/contact-form-7/',
+                        '/integrations/seo/',
+                    ]
+                },
+                {
+                    title: 'JavaScript Libraries',
+                    collapsable: false,
+                    children: [
+                        '/integrations/aos/',
+                        '/integrations/lightgallery/',
+                        '/integrations/swiper/',
+                    ]
+                },
+                {
+                    title: 'Other',
+                    collapsable: false,
+                    children: [
+                        '/integrations/tracking/',
                     ]
                 },
             ],
