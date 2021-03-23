@@ -28,3 +28,14 @@ It is lightweight and SEO friendly, by optimizing all of its assets and using se
   - Automatic conversion of custom fonts into *woff/woff2* web formats
   - Support for localization by generation of a `.pot` [template file](https://developer.wordpress.org/themes/functionality/internationalization/)
   - Support for integration of some optional JavaScript libraries
+
+---
+
+::: warning
+Bricks was born as a personal project, and should be currently considered as a beta. It is perfectly usable and it is already a good foundation for a WordPress project, but there is room for improvement, and changes, even relevant ones, should be expected.
+
+Contributions are warmly welcome, especially about: 
+  - code quality
+  - best practices
+  - open-source project standards 
+:::
