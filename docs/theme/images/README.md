@@ -10,10 +10,18 @@ Bricks comes with a custom Gulp task that helps you optimize images. The source 
 
 Supported formats are `*.jpg`, `*.png`, `*.gif` and `*.svg`. They will be optimized by Gulp with [imagemin](https://github.com/imagemin/imagemin), and placed into `dist/img`.
 
-You can then use these images in your template files by any means that you may need (with standard html `img` tag, by CSS, JavaScript, etc.).
+You can then use these images in your template files in any way that you may need. In example, to use a custom image in a `<img>` tag, you can simply reference it like this:
+
+```php
+<?php $my_image = get_template_directory_uri().'/dist/img/my-image.png'; ?>
+
+<img src="<?php echo $my_image; ?>" alt="My Image">
+```
 
 
 ::: warning
-Please note that images placed directly inside your theme folder should be considered as "static" resources, and thus only used in places where you don't expect the final user to be able to modify them (i.e. default fallbacks and general "theme images" ); any image that you want to dynamically load and that can be considered real content, should be uploaded into WordPress "Media" manager and attached to your pages/articles the standard way.
+Please note that images placed directly inside your theme folder should be considered as "static" resources, and thus only used in places where you don't expect the final user to be able to modify them (i.e. fallback or theme-related images as opposed to real content, icons, etc. ).
+
+Any image that you want to be loaded dynamically and that can be considered real content, should be uploaded into WordPress "Media" manager and attached to your pages/articles with standard WordPress template tags.
 :::
 
