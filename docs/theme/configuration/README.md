@@ -6,7 +6,7 @@ description: 'Configuration options'
 
 # {{ $frontmatter.title }}
 
-Some configuration variables are available in `.config.js`.
+Some configuration variables are available in `bricks.config.js`.
 
 ## Project Variables
 
