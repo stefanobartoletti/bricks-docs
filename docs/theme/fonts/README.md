@@ -38,7 +38,7 @@ If you don't want to use Google Fonts, you can comment out both `wp_enqueue_styl
 
 ## Local Fonts
 
-To use locally loaded custom fonts, you should place your font files into `src/fonts`; Gulp will convert and copy them into `dist/fonts` (*otf/ttf* fonts will be converted into web formats, while *woff/woff2* fonts will be simply copied).
+To use locally loaded custom fonts, you should place your font files into `src/fonts`; Gulp will convert and copy them into `dist/fonts` (*otf/ttf* fonts will be converted into *woff2* web format, while *woff/woff2* fonts will be simply copied).
 
 Fonts converted this way must be loaded into your theme with custom `@font-face` rules, which are defined inside `src/sass/_fontface.scss`.
 

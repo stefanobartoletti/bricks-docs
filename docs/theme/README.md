@@ -25,7 +25,7 @@ It is lightweight and SEO friendly, by optimizing all of its assets and using se
   - CSS bundling, including [Autoprefixer](https://autoprefixer.github.io/) and [PurgeCSS](https://purgecss.com/)
   - JavaScript bundling with [Rollup](https://www.rollupjs.org/) and [Babel](https://babeljs.io/)
   - [BrowserSync](https://www.browsersync.io/)
-  - Automatic conversion of custom fonts into *woff/woff2* web formats
+  - Automatic conversion of custom fonts into *woff2* web format
   - Support for localization by generation of a `.pot` [template file](https://developer.wordpress.org/themes/functionality/internationalization/)
   - Support for integration of some optional JavaScript libraries
 
