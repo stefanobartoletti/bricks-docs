@@ -111,6 +111,7 @@ module.exports = {
                     children: [
                         '/about/',
                         '/about/author/',
+                        '/about/contributing/',
                     ]
                 },
             ]
