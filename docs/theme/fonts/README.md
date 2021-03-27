@@ -14,7 +14,7 @@ The following examples use Bricks default font, Rubik. You should of course modi
 
 ## Google Fonts
 
-[Google Fonts](https://fonts.google.com/) are loaded from `functions/cssjs.php`:
+[Google Fonts](https://fonts.google.com/) are loaded from `functions/enqueues.php`:
 
 ```php
 function brk_styles_scripts() {
@@ -24,7 +24,7 @@ function brk_styles_scripts() {
 }
 ```
 
-Always on `functions/cssjs.php`, a custom function preloads required Google Fonts resources:
+Always on `functions/enqueues.php`, a custom function preloads required Google Fonts resources:
 
 
 ```php
