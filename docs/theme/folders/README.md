@@ -29,7 +29,7 @@ description: 'Bricks theme folder structure'
 
 ### `acf-json`
 
-Support for Advanced Custom Fields [local JSON](https://www.advancedcustomfields.com/resources/local-json/). You can delete this directory if you don't use this feature (more details on [ACF](/integrations/acf) page).
+Support for Advanced Custom Fields [local JSON](https://www.advancedcustomfields.com/resources/local-json/). You can delete this directory if you don't use this feature (more details on [ACF](/integrations/acf/) page).
 ### `dist`
 
 Compiled resources coming from `src` and built by Gulp, directly loaded into the theme.
@@ -41,7 +41,7 @@ The contents of this folder are deleted and overwritten by compiling tasks. You 
 
 ### `functions`
 
-Modularization of `functions.php` WordPress file (more details on [Functions](/theme/functions) page).
+Modularization of `functions.php` WordPress file (more details on [Functions](/theme/functions/) page).
 
 #### `functions/cpt`
 
@@ -54,7 +54,7 @@ Third-party php resources. [WP Bootstrap Navwalker](https://github.com/wp-bootst
 
 ### `languages`
 
-Translations support. The source `template.pot` template file is located here, you shuld put here also actual `*.po` and `*.mo` translation files (more details on [Localization](/theme/localization) page).
+Translations support. The source `template.pot` template file is located here, you shuld put here also actual `*.po` and `*.mo` translation files (more details on [Localization](/theme/localization/) page).
 
 ### `src`
 

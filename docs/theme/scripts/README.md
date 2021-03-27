@@ -90,7 +90,7 @@ Compiles source Sass files into final CSS (more details on [CSS](/theme/css/) pa
 gulp js
 ```
 
-Compiles source JavaScript files into final bundles (more details on [JavaScript](/theme/javascript) page).
+Compiles source JavaScript files into final bundles (more details on [JavaScript](/theme/javascript/) page).
 
 ---
 
