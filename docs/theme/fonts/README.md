@@ -9,7 +9,7 @@ description: 'How Bricks manages fonts'
 Bricks comes with some presets to help you configure the typography of your theme, with support for both Google Fonts and locally loaded fonts.
 
 ::: tip
-The following examples use Bricks default font, Rubik. You can of course modify these presets to suit your own needs.
+The following examples use Bricks default font, Rubik. You should of course modify these presets to suit your own needs.
 :::
 
 ## Google Fonts

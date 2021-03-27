@@ -62,7 +62,7 @@ Uncompiled resource files, ready to be edited and customized. They will be compi
 
 #### `src/fonts`
 
-Source custom font files (*ttf/otf* will be converted into web formats, *woff/woff2* will be simply copied).
+Source custom font files (*otf/ttf* fonts will be converted into *woff2* web format, while *woff/woff2* fonts will be simply copied).
 
 #### `src/img`
 
@@ -81,5 +81,5 @@ Source Sass files (will be optimized by PurgeCSS and Autoprefixer).
 Template files partials, to be called with `get_template_part()`. Bricks templates are modularized and split into partial files, in order to keep an ordered stucture and provide a component-like development experience.
 
 ::: tip
-You are encouraged to take advantage of [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/) and modularize also your own custom templates, to keep your code clean, simple and easily maintainable.
+You are encouraged to take advantage of [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/) and modularize your own custom templates as well, to keep your code clean, simple and easily maintainable.
 :::
