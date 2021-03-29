@@ -2,8 +2,8 @@ module.exports = {
     title: 'Bricks',
     description: 'A modular WordPress starter theme powered by Bootstrap and Gulp',
     head: [
-        ['meta', { charset: 'utf-8' }],
-        ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+        ['link', { rel: 'icon', href: '/icon.png' }],
+        ['meta', { name: 'theme-color', content: '#37c871' }],
         ['meta', { name: 'og:locale', content: 'en_US' }],
         ['meta', { name: 'og:type', content: 'website' }],
         ['meta', { name: 'og:url', content: 'https://bricks.stefanobartoletti.it/' }],
@@ -18,8 +18,6 @@ module.exports = {
         ['meta', { name: 'twitter:description', content: "A modular WordPress starter theme powered by Bootstrap and Gulp" }],
         ['meta', { name: 'twitter:image', content: 'https://bricks.stefanobartoletti.it/preview.png' }],
         ['meta', { name: 'google-site-verification', content: 'snVUv6mUDur4MkL3CDDFGFDv7TPFm4vAk5BAfK-cDsw' }]
-        ['meta', { name: 'theme-color', content: '#37c871' }],
-        ['link', { rel: 'icon', href: '/icon.png' }],
     ],
     dest: 'dist',
     plugins: [
