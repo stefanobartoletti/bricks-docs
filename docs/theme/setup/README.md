@@ -20,7 +20,9 @@ description: 'How to setup Bricks and start developing your theme'
     git clone https://github.com/stefanobartoletti/bricks.git
     ```
 
-- Delete `.git` directory inside the newly created `bricks` theme folder and initialize a new repository from scratch (Optional).
+- Delete `.git` and `.github` directories inside the newly created `bricks` theme folder.
+  
+- Run `git init` to initialize a new repository from scratch (you may skip this step, i.e. if you already have a Git repository versioning your entire WordPress installation).
 
 - Install dependencies with your package manager (the install script will also perform the initial setup):
 
