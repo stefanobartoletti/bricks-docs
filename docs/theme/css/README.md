@@ -58,7 +58,7 @@ You can define a safelist for any selector that you don't want to be purged with
 You should read [PurgeCSS documentation](https://purgecss.com/) for more details about its use.
 
 ::: warning
-PurgeCSS is a powerful tool but it can be tricky if not used properly. If you experience problems caused by its use, you can effectively disable it by removing all its ignore rules from `style.scss` **except from `/* purgecss start ignore */` placed at the top of the file and `/* purgecss end ignore */` at its bottom**.
+PurgeCSS is a powerful tool but it can be tricky if not used properly. If you experience problems caused by its use and you want to disable it, you can set `enable.purgecss` setting to `false` (it is located in `bricks.config.js`).
 :::
 
 ## Enqueues
@@ -70,11 +70,3 @@ In example, the main theme stylesheet is included like this:
 ```php        
 wp_enqueue_style('brk-styles', get_template_directory_uri() .'/dist/css/style.min.css');
 ```
-
----
-
-::: warning
-Bricks relies on plain JavaScript for both its native scripts and for external dependencies, such as Bootstrap Native or its other optional libraries, which are chosen to be as much lightweight and dependency-free as possible.
-
-WordPress natively includes jQuery and many plugins rely on it to work properly, so you can use it even in your custom theme if you really need it. Anyway, jQuery is not actively supported by Bricks and its use is not encouraged.
-:::
