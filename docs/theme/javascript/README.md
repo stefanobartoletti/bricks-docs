@@ -8,7 +8,7 @@ description: 'How Bricks manages JavaScript'
 
 Bricks uses Rollup and Babel to respectively bundle and transpile JavaScript code. The source folder is `src/js`, while the compiled resources are placed in `dist/js`.
 
-## Writing
+## Sources
 
 JavaScript code is intended to be written with the same modularity principles on which the entire Bricks is based, and according to this is split in several files.
 
@@ -44,7 +44,7 @@ Only in **Production**:
 
 - The final bundles are minified with UglifyJS.
 
-## Enqueuing
+## Enqueues
 
 Bricks uses the standard WordPress `wp_enqueue_script()` function to to include JavaScript files, and it does so from `functions/enqueues.php`.
 
