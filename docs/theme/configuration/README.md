@@ -16,7 +16,7 @@ These options, listed under **Project Variables**, can be edited on a per-projec
 - **`siteURL`**: local development URL, used by BrowserSync as the [local proxy](https://www.browsersync.io/docs/api#api-init).
 - **`enable.purgecss`**: enable use of [PurgeCSS](https://purgecss.com/) when bundling CSS for Production.
 - **`cssSafelist`**: an array of values used as a safelist for PurgeCSS (see [CSS](/theme/css/) page for more details).
-- **`faIconSafelist`**: a whitelist of icons used by *gulp-fa-minify* to minify FontAwesome 5 (see [JavaScript](/theme/javascript/) page for more details).
+- **`faIconSafelist`**: a whitelist of icons used by *gulp-fa-minify* to minify FontAwesome 5 (see [Icons](/theme/icons/) page for more details).
 
 ## Path Variables
 
