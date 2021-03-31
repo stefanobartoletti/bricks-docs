@@ -6,7 +6,7 @@ description: 'How Bricks manages CSS'
 
 # {{ $frontmatter.title }}
 
-Bricks uses Sass in its source stylesheets, which Gulp processes also with Autoprefixer and PurgeCSS. The source folder is `src/sass`, while the compiled stylesheet are placed in `dist/css`.
+Bricks uses Sass in its source stylesheets, which Gulp processes also with Autoprefixer and PurgeCSS. The source folder is `src/sass`, while the compiled stylesheet is placed in `dist/css`.
 
 ## Sources
 
