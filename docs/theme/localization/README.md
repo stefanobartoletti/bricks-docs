@@ -16,9 +16,9 @@ Example:
 <?php esc_html_e('My translatable text string', 'bricks') ?>
 ```
 
-A custom Gulp task scans template files for all localization functions that use `bricks` as text domain, and updates the `languages/template.pot` file, that you can use as a base for your translations (read more about this subject on [WordPress developer's handbook](https://developer.wordpress.org/apis/handbook/internationalization/localization/)).
+Gulp scans template files for all localization functions that use `bricks` as text domain, and updates the `languages/template.pot` file, that you can use as a base for your translations (read more about this subject on [WordPress developer's handbook](https://developer.wordpress.org/apis/handbook/internationalization/localization/)).
 
-To take advantage of this task, you should use `bricks`  as text domain even for your own translatable strings.
+To take advantage of this, you should use `bricks` as text domain even for your own translatable strings.
 
 Actual `*.po` and `*.mo` translation files should be placed inside `languages/` folder as well, and can be generated with a tool like [Poedit](https://poedit.net/).
 

@@ -25,7 +25,7 @@ Besides the main file, some other partials have a specific purpose:
 - **`_globals.scss`**, used for any CSS rule that you want to apply throughout the whole site, to easily store them in a single place.
 - **`integrations/_wpcore.scss`**, that includes some required CSS rules used for [WordPress generated classes](https://codex.wordpress.org/CSS#WordPress_Generated_Classes).
 
-The rest of the Sass partials is placed in sub-folders of `src/sass`, where you should also put your own additional files that you may need to create.
+The other Sass partials are placed in sub-folders of `src/sass`, and are used to style single pages or components. You can follow this setup and put in these sub-folders your own additional files too.
 
 Some optional libraries integrations are also included from `style.scss`, but disabled by default (more info about this on the [integrations](/integrations/) section of this documentation).
 
