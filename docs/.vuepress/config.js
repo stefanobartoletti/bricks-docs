@@ -59,7 +59,6 @@ module.exports = {
                         '/theme/folders/',
                         '/theme/functions/',
                         '/theme/bootstrap/',
-                        '/theme/fontawesome/',
                     ]
                 },
                 {
