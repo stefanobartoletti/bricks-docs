@@ -35,7 +35,7 @@ Support for Advanced Custom Fields [local JSON](https://www.advancedcustomfields
 Compiled resources coming from `src` and built by Gulp, directly loaded into the theme.
 
 ::: warning
-The contents of this folder are deleted and overwritten by compiling tasks. You should not put anything here manually
+The contents of this folder are automatically updated and overwritten by compiling tasks. You should not manualy edit anything here.
 :::
 
 
