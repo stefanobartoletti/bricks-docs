@@ -6,7 +6,7 @@ description: 'functions.php'
 
 # {{ $frontmatter.title }}
 
-Like everything else in this theme, `functions.php` is modularized, and its partials are located in `functions` folder.
+Like everything else in this theme, `functions.php` is modularized, and its partials are located in `functions` folder. Your own custom functions and code snippets should be be put in `custom.php`.
 
 ## Details
 
