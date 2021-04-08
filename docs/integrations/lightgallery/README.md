@@ -1,7 +1,7 @@
 ---
 title: Lightgallery
 lang: en-US
-description: 'functions.php'
+description: 'Bricks WordPress starter theme lightgallery.js integration'
 ---
 
 # {{ $frontmatter.title }}

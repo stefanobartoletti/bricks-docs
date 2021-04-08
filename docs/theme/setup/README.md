@@ -1,7 +1,7 @@
 ---
 title: Setup
 lang: en-US
-description: 'How to setup Bricks and start developing your theme'
+description: 'How to install Bricks WordPress starter theme'
 ---
 
 # {{ $frontmatter.title }}

@@ -1,7 +1,7 @@
 ---
 title: Scripts & Tasks
 lang: en-US
-description: 'Development scripts and Gulp tasks'
+description: 'Bricks WordPress starter theme development scripts and Gulp tasks'
 ---
 
 # {{ $frontmatter.title }}

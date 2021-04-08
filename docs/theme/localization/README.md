@@ -1,7 +1,7 @@
 ---
 title: Localization
 lang: en-US
-description: 'How Bricks manages translations'
+description: 'How Bricks WordPress starter theme manages translations'
 ---
 
 # {{ $frontmatter.title }}

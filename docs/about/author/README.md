@@ -1,7 +1,7 @@
 ---
 title: Author
 lang: en-US
-description: 'functions.php'
+description: 'Stefano Bartoletti Web Designer & Developer'
 ---
 
 # {{ $frontmatter.title }}

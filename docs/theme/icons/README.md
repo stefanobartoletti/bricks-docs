@@ -1,7 +1,7 @@
 ---
 title: Icons
 lang: en-US
-description: 'How Bricks manages icons'
+description: 'How Bricks WordPress starter theme manages icons'
 ---
 
 # {{ $frontmatter.title }}

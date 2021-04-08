@@ -1,7 +1,7 @@
 ---
 title: Folder Structure
 lang: en-US
-description: 'Bricks theme folder structure'
+description: 'Bricks Wordpress starter theme folder structure'
 ---
 
 # {{ $frontmatter.title }}

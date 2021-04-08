@@ -1,7 +1,7 @@
 ---
 title: Contributing
 lang: en-US
-description: 'How to contribute to Bricks WordPress theme'
+description: 'How to contribute to an Open Source project'
 ---
 
 # {{ $frontmatter.title }}

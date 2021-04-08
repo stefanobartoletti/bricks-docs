@@ -1,7 +1,7 @@
 ---
 title: Configuration
 lang: en-US
-description: 'Configuration options'
+description: 'How to configure Bricks WordPress starter theme'
 ---
 
 # {{ $frontmatter.title }}

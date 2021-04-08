@@ -1,7 +1,7 @@
 ---
 title: Fonts
 lang: en-US
-description: 'How Bricks manages fonts'
+description: 'How Bricks WordPress starter theme manages fonts'
 ---
 
 # {{ $frontmatter.title }}

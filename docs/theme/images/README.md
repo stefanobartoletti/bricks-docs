@@ -1,7 +1,7 @@
 ---
 title: Images
 lang: en-US
-description: 'How Bricks manages images'
+description: 'How Bricks WordPress starter theme manages images'
 ---
 
 # {{ $frontmatter.title }}

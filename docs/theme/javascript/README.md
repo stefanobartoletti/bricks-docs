@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 lang: en-US
-description: 'How Bricks manages JavaScript'
+description: 'How Bricks WordPress starter theme manages JavaScript'
 ---
 
 # {{ $frontmatter.title }}
