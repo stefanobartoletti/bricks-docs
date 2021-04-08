@@ -31,7 +31,11 @@ Registers sidebars. (Read about [Sidebars](https://developer.wordpress.org/theme
 
 ### `lib/class-wp-bootstrap-navwalker.php`
 
+Includes WP Bootstrap Nav Walker, to integrate Bootstrap dropdown navs with WordPress native menu manager. (Read about [wp-bootstrap-navwalker](https://wp-bootstrap.github.io/wp-bootstrap-navwalker/) on its docs). 
+
 ### `functions/ctp/*.php`
+
+Custom Post Types and Custom Taxonomies definitions. Every `*.php` file inside this folder will be automatically loaded in to the theme. Two boilerplate `*.php.sample` files are already present and can be used a starting points to define your custom content. (Read about [Custom Post Types](https://developer.wordpress.org/reference/functions/register_post_type/) and [Custom Taxonomies](https://developer.wordpress.org/reference/functions/register_taxonomy/) on the WordPress docs or on [GenerateWP](https://generatewp.com/)). 
 
 ### `globals.php`
 
