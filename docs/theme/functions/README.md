@@ -37,11 +37,21 @@ Includes WP Bootstrap Nav Walker, to integrate Bootstrap dropdown navs with Word
 
 Custom Post Types and Custom Taxonomies definitions. Every `*.php` file inside this folder will be automatically loaded in to the theme. Two boilerplate `*.php.sample` files are already present and can be used a starting points to define your custom content. (Read about [Custom Post Types](https://developer.wordpress.org/reference/functions/register_post_type/) and [Custom Taxonomies](https://developer.wordpress.org/reference/functions/register_taxonomy/) on the WordPress docs or on [GenerateWP](https://generatewp.com/)). 
 
-### `globals.php`
+### `global.php`
+
+Enables some global functions that could be useful in most projects.
+
+- `brk_svg_upload()` and `brk_svg_mimetype()` enable support for uploading SVG.
+- `brk_thumbnail_alt()` acts as a custom template tag to retrive the `alt` value of an attachment image.
+- `brk_excerpt_length()` defines the length of post's excerpts (disabled by default, uncomment its filter to enable it).
 
 ### `integrations/acf.php`
 
+Some integrations with Advanced Custom Fields. Disabled by default, you can enable this by uncommenting the relevant line inside `functions.php`. (more info about this on the [Advanced Custom Field](/integrations/acf/) page of this documentation).
+
 ### `integrations/cf7.php`
+
+Some integrations with Contact Form 7. Disabled by default, you can enable this by uncommenting the relevant line inside `functions.php`. (more info about this on the [Contact Form 7](/integrations/contact-form-7/) page of this documentation).
 
 ### `meta.php`
 
