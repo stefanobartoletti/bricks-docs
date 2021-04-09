@@ -47,7 +47,7 @@ Enables some global functions that could be useful in most projects.
 
 ### `integrations/acf.php`
 
-Some integrations with Advanced Custom Fields. Disabled by default, you can enable this by uncommenting the relevant line inside `functions.php`. (more info about this on the [Advanced Custom Field](/integrations/acf/) page of this documentation).
+Some integrations with Advanced Custom Fields. (more info about this on the [Advanced Custom Field](/integrations/acf/) page of this documentation).
 
 ### `integrations/cf7.php`
 
@@ -55,7 +55,7 @@ Some integrations with Contact Form 7. Disabled by default, you can enable this 
 
 ### `meta.php`
 
-Some functions used to print metadata inside the HTML `<head>`. Disabled by default, you can enable this by uncommenting the relevant line inside `functions.php`. (more info about this on the [Tracking](/integrations/tracking/) page of this documentation).
+Some functions used to print metadata inside the HTML `<head>`. (more info about this on the [Tracking](/integrations/tracking/) page of this documentation).
 
 ### `searchfilter.php`
 
