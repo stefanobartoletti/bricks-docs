@@ -4,7 +4,7 @@ lang: en-US
 description: 'How Bricks WordPress starter theme manages CSS'
 ---
 
-# {{ $frontmatter.title }}Bricks WordPress starter theme configuration options
+# {{ $frontmatter.title }}
 Bricks uses Sass in its source stylesheets, which Gulp processes also with Autoprefixer and PurgeCSS. The source folder is `src/sass`, while the compiled stylesheet is placed in `dist/css`.
 
 ## Sources
