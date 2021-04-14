@@ -81,7 +81,7 @@ module.exports = {
                     children: [
                         '/integrations/',
                         '/integrations/wordpress/',
-                        '/integrations/woocommerce/',
+                        // '/integrations/woocommerce/',
                         '/integrations/acf/',
                         '/integrations/contact-form-7/',
                         '/integrations/seo/',
