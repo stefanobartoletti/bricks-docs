@@ -11,7 +11,7 @@ Bricks uses Sass in its source stylesheets, which Gulp processes also with Autop
 
 Bricks takes advantage of the default Sass modularization system, by splitting its stylesheet in several partial files, which are all imported in the main `style.scss`.
 
-According to Sass standards, partials are prefixed with an underscore (i.e. `_theme.scss`) and are not individually processed by the compiler and are imported in the main file with `@import` rules.
+According to Sass standards, partials are prefixed with an underscore (i.e. `_theme.scss`) and are not individually processed by the compiler, but are imported in the main file with `@import` rules.
 
 ::: warning
 Sass discourages the use of the `@import` rule in favor of the new standard `@use`, but the latter is not yet supported by Node Sass implementation, which is used by Gulp.
