@@ -50,6 +50,10 @@ npm run watch
 
 This script starts both [Gulp watcher](https://gulpjs.com/docs/en/getting-started/watching-files/) and [BrowserSync](https://www.browsersync.io/), to automatically compile modified resources on-the-fly and inject them in your browser, during local development (like **dev**, it uses `NODE_ENV=development` value).
 
+::: tip
+BrowserSync proxy server can be acessed by default from port `3000`, and its configuration UI from `3001`. When you run `yarn watch`, full URLs will be displayed on the terminal output.
+:::
+
 ---
 
 <code-group>
