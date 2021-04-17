@@ -84,7 +84,7 @@ module.exports = {
                         // '/integrations/woocommerce/',
                         '/integrations/acf/',
                         '/integrations/contact-form-7/',
-                        '/integrations/seo/',
+                        '/integrations/yoast-rankmath/',
                     ]
                 },
                 {
