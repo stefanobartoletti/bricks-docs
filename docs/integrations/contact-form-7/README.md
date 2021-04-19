@@ -8,7 +8,7 @@ description: 'Bricks WordPress starter theme Contact Form 7 integration'
 
 Bricks has an optional integration with the popular WordPress plugin Contact Form 7, whose functions can be accessd from `functions/integrations/cf7.php`.
 
-This integration is disabled by default, and can be enabled from `functions.php` by decommenting the following line:
+This integration is disabled by default, and can be enabled from `functions.php` by uncommenting the following line:
 
 ```php
 require_once get_template_directory() . '/functions/integrations/cf7.php';
