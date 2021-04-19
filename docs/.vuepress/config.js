@@ -76,10 +76,15 @@ module.exports = {
             ],
             '/integrations/': [
                 {
-                    title: 'WordPress',
                     collapsable: false,
                     children: [
                         '/integrations/',
+                    ]
+                },
+                {
+                    title: 'WordPress',
+                    collapsable: false,
+                    children: [
                         '/integrations/wordpress/',
                         // '/integrations/woocommerce/',
                         '/integrations/acf/',
