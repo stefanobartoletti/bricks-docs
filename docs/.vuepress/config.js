@@ -113,8 +113,6 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/about/',
-                        '/about/author/',
-                        '/about/contributing/',
                     ]
                 },
             ]

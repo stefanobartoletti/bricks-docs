@@ -18,3 +18,7 @@ For these reasons, I kindly welcome any kind of feedback, suggestion and contrib
 
   - Theme: [https://github.com/stefanobartoletti/bricks](https://github.com/stefanobartoletti/bricks)
   - Documentation: [https://github.com/stefanobartoletti/bricks-docs](https://github.com/stefanobartoletti/bricks-docs)
+
+## About me
+
+If you want to get in touch, you can find me on [GitHub](https://github.com/stefanobartoletti), [Twitter](https://twitter.com/ste_bartoletti) or [LinkedIn](https://www.linkedin.com/in/bartolettistefano).
