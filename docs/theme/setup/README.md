@@ -17,13 +17,8 @@ description: 'How to install Bricks WordPress starter theme'
 - Clone Bricks from its [repository](https://github.com/stefanobartoletti/bricks) directly inside the `wp-content/themes` directory in your WordPress installation:
 
     ```bash
-    git clone -b master https://github.com/stefanobartoletti/bricks.git
+    git clone https://github.com/stefanobartoletti/bricks.git
     ```
-    ::: tip
-    The `-b master` argument is required to set `master` as the main branch, tracking the latest released version.
-    
-    However, the main branch of the GitHub repository is `devel`, that instead is used for development purposes and against which Dependabot Pull Requests are made.
-    :::
 
 - Delete `.git` and `.github` directories inside the newly created `bricks` theme folder.
   
