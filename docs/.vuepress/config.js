@@ -97,7 +97,6 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/integrations/aos/',
-                        '/integrations/lightgallery/',
                         '/integrations/swiper/',
                     ]
                 },
