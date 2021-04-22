@@ -54,10 +54,6 @@ Some integrations with Advanced Custom Fields. (more info about this on the [Adv
 
 Some integrations with Contact Form 7. Disabled by default, you can enable this by uncommenting the relevant line inside `functions.php`. (more info about this on the [Contact Form 7](/integrations/contact-form-7/) page of this documentation).
 
-### `meta.php`
-
-Some functions used to print metadata inside the HTML `<head>`. (more info about this on the [Tracking](/integrations/tracking/) page of this documentation).
-
 ### `searchfilter.php`
 
 A function to restrict the search results only to certain post types. Disabled by default, you can enable this by uncommenting the relevant line inside `functions.php`.

@@ -100,13 +100,6 @@ module.exports = {
                         '/integrations/swiper/',
                     ]
                 },
-                {
-                    title: 'Other',
-                    collapsable: false,
-                    children: [
-                        '/integrations/tracking/',
-                    ]
-                },
             ],
             '/about/': [
                 {
