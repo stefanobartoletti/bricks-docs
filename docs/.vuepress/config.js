@@ -105,6 +105,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/about/',
+                        '/about/author/',
                     ]
                 },
             ]
