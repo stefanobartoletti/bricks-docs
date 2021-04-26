@@ -6,11 +6,9 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "dependencies": {
-    "vuepress-plugin-sitemap": "^2.3.1"
-  },
   "devDependencies": {
     "vuepress": "^1.8.2",
-    "vuepress-plugin-google-tag-manager": "^0.0.5"
+    "vuepress-plugin-google-tag-manager": "^0.0.5",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

@@ -34,6 +34,82 @@ module.exports = {
     ], 
     themeConfig: {
         logo: '/bricks-logo.svg',
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Theme', link: '/theme/' },
+            { text: 'Integrations', link: '/integrations/' },
+            { text: 'About', link: '/about/' },
+        ],
+        sidebar: {
+            '/theme/': [
+                {
+                    title: 'Get started',
+                    collapsable: false,
+                    children: [
+                        '/theme/',
+                        '/theme/setup/',
+                        '/theme/configuration/',
+                        '/theme/scripts/',
+                    ]
+                },
+                {
+                    title: 'Theme',
+                    collapsable: false,
+                    children: [
+                        '/theme/folders/',
+                        '/theme/functions/',
+                        '/theme/bootstrap/',
+                    ]
+                },
+                {
+                    title: 'Assets',
+                    collapsable: false,
+                    children: [
+                        '/theme/css/',
+                        '/theme/javascript/',
+                        '/theme/images/',
+                        '/theme/fonts/',
+                        '/theme/icons/',
+                        '/theme/localization/',
+                    ]
+                },
+            ],
+            '/integrations/': [
+                {
+                    collapsable: false,
+                    children: [
+                        '/integrations/',
+                    ]
+                },
+                {
+                    title: 'WordPress',
+                    collapsable: false,
+                    children: [
+                        // '/integrations/woocommerce/',
+                        '/integrations/acf/',
+                        '/integrations/contact-form-7/',
+                        '/integrations/yoast-rankmath/',
+                    ]
+                },
+                {
+                    title: 'JavaScript Libraries',
+                    collapsable: false,
+                    children: [
+                        '/integrations/aos/',
+                        '/integrations/swiper/',
+                    ]
+                },
+            ],
+            '/about/': [
+                {
+                    collapsable: false,
+                    children: [
+                        '/about/',
+                        '/about/author/',
+                    ]
+                },
+            ]
+        },
         repo: 'stefanobartoletti/bricks',
         docsRepo: 'stefanobartoletti/bricks-docs',
         docsDir: 'docs',
