@@ -30,6 +30,11 @@ module.exports = {
             'sitemap', {
                 hostname: 'https://bricks.stefanobartoletti.it'
             },
+        ],
+        [
+            'vuepress-plugin-canonical', {
+              baseURL: 'https://bricks.stefanobartoletti.it',
+            }
         ]
     ], 
     themeConfig: {
