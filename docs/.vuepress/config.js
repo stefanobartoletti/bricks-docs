@@ -119,6 +119,7 @@ module.exports = {
         docsRepo: 'stefanobartoletti/bricks-docs',
         docsDir: 'docs',
         editLinks: true,
+        lastUpdated: true,
         smoothScroll: true,
     }
 }
