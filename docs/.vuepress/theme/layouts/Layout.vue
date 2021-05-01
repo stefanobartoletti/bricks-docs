@@ -3,9 +3,9 @@
         <template #page-bottom>
             <footer class="footer">
                 <div class="icons">
+                    <a href="https://github.com/stefanobartoletti" target="_blank" rel="noopener noreferrer"><icon-github/></a>                    
                     <a href="https://twitter.com/ste_bartoletti" target="_blank" rel="noopener noreferrer"><icon-twitter/></a>
                     <a href="https://www.linkedin.com/in/bartolettistefano/" target="_blank" rel="noopener noreferrer"><icon-linkedin/></a>
-                    <a href="https://github.com/stefanobartoletti" target="_blank" rel="noopener noreferrer"><icon-github/></a>                    
                 </div>
             </footer>
         </template>
