@@ -2,9 +2,6 @@
     <ParentLayout>
         <template #page-bottom>
             <footer class="footer">
-                <div class="copyright">
-                    ©2021-present <a href="https://www.stefanobartoletti.it" target="_blank">Stefano Bartoletti</a>
-                </div>
                 <div class="icons">
                     <a href="https://twitter.com/ste_bartoletti" target="_blank" rel="noopener noreferrer"><icon-twitter/></a>
                     <a href="https://www.linkedin.com/in/bartolettistefano/" target="_blank" rel="noopener noreferrer"><icon-linkedin/></a>
