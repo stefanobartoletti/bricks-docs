@@ -14,6 +14,10 @@ If not needed, this integration can be disabled by commenting the following line
 require_once get_template_directory() . '/functions/integrations/acf.php';
 ```
 
+::: warning
+Using ACF is not mandatory but strongly recommended, because Bricks takes advantage of some of its features.
+:::
+
 ## Local JSON
 
 An `acf-json` folder in the root folder of the theme enables ACF's [Local JSON](https://www.advancedcustomfields.com/resources/local-json/). The simple presence of this folder is sufficient to enable this feature, if you don't need it you can simply delete this folder.
