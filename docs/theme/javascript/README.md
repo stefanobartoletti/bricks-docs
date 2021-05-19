@@ -42,7 +42,7 @@ Only in **Development**:
 
 Only in **Production**:
 
-- The final bundles are minified with UglifyJS.
+- The final bundles are minified with [Terser](https://terser.org/).
 
 ## Enqueues
 
