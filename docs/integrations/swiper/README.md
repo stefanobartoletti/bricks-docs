@@ -6,7 +6,7 @@ description: 'Bricks WordPress starter theme Swiper integration'
 
 # {{ $frontmatter.title }}
 
-Bricks has a builtin optional integration with [Swiper](https://swiperjs.com/), a JavaScript slider/carousel which shares the same moduler principles as this theme. 
+Bricks has a builtin optional integration with [Swiper](https://swiperjs.com/), a JavaScript slider/carousel which shares the same modular principles as this theme. 
 
 ::: warning
 The latest version tested with Bricks is `6.5.7`
@@ -51,7 +51,7 @@ Swiper is disabled by default, and can be enabled if needed by following these s
 
 Once installed, you can use [Swiper documentation](https://swiperjs.com/get-started/) as a reference to use it in your project.
 
-Swiper is a modular library, and its modules can be imported and enabled individually. Bricks by default enables two of these modules, namely `Navigation` and `Pagination`, both to offer a palusible default preset and to give an exmnaple on how to use the whole library.
+Swiper's modules can be imported and enabled individually. Bricks by default enables two of them, namely `Navigation` and `Pagination`, both to offer a sensible default preset and to give an example on how to use the whole library.
 
 - JavaScript is included from `src/js/integrations/swiper.js`, that imports the sources from `node_modules` and initializes the script. Some configuration settings are already present, Swiper itself is mounted on elements which have a  `swiper-container` class.
 
