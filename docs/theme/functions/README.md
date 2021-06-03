@@ -60,11 +60,7 @@ A function to restrict the search results only to certain post types. Disabled b
 
 ### `cleanup.php`
 
-Various filters to disable a lot of unnecessary stuff that WordPress loads on the HTML `<head>`, such as support for emojis, unnecessary inline styles, and so on. **It also disables Gutenberg editor**. Disabled by default, you can enable this by uncommenting the relevant line inside `functions.php`.
-
-::: warning
-Most of the stuff disabled by these filters is really not required for most projects, and enabling this file could help in improving the performance of your site. It should be safe to use these optimizations, but if you rely on some of these features or you experience problems after enabling this, you can leave it disabled. 
-:::
+Various functions used to disable a lot of unnecessary stuff that WordPress loads on the HTML `<head>` of the site pages. (more info about this on the [Cleanup](/theme/cleanup/) page of this documentation).
 
 ### `custom.php`
 
