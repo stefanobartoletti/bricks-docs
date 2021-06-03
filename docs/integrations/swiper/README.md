@@ -23,13 +23,13 @@ Swiper is disabled by default, and can be enabled if needed by following these s
 
     <code-block title="Yarn" active> 
     ```bash
-    yarn add -D swiper
+    yarn add swiper
     ```
     </code-block>
 
     <code-block title="npm"> 
     ```bash
-    npm install -D swiper
+    npm install swiper
     ```
     </code-block>
     

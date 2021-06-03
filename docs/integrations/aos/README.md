@@ -23,13 +23,13 @@ AOS is disabled by default, and can be enabled if needed by following these step
 
     <code-block title="Yarn" active> 
     ```bash
-    yarn add -D aos
+    yarn add aos
     ```
     </code-block>
 
     <code-block title="npm"> 
     ```bash
-    npm install -D aos
+    npm install aos
     ```
     </code-block>
     
