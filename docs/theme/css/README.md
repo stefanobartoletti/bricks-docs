@@ -20,10 +20,10 @@ Sass discourages the use of the `@import` rule in favor of the new standard `@us
 
 Besides the main file, some other partials have a specific purpose:
 
-*   **`_fontface.scss`**, that contains `@font-face` definitions used for importing local fonts. It is disabled by default and you should manually uncomment its entry inside `styles.scss` (more info about this on the [Fonts](/theme/fonts/) page).
-*   **`_theme.scss`**, that includes a selection of the most common Bootstrap variables, ready to be customized for theming (more info about this on the [Bootstrap](/theme/bootstrap/) page).
-*   **`_globals.scss`**, used for any CSS rule that you want to apply throughout the whole site, to easily store them in a single place.
-*   **`integrations/_wpcore.scss`**, that includes some required CSS rules used for [WordPress generated classes](https://codex.wordpress.org/CSS#WordPress_Generated_Classes).
+-   **`_fontface.scss`**, that contains `@font-face` definitions used for importing local fonts. It is disabled by default and you should manually uncomment its entry inside `styles.scss` (more info about this on the [Fonts](/theme/fonts/) page).
+-   **`_theme.scss`**, that includes a selection of the most common Bootstrap variables, ready to be customized for theming (more info about this on the [Bootstrap](/theme/bootstrap/) page).
+-   **`_globals.scss`**, used for any CSS rule that you want to apply throughout the whole site, to easily store them in a single place.
+-   **`integrations/_wpcore.scss`**, that includes some required CSS rules used for [WordPress generated classes](https://codex.wordpress.org/CSS#WordPress_Generated_Classes).
 
 The other Sass partials are placed in sub-folders of `src/sass`, and are used to style single pages or components. You can follow this setup and put in these sub-folders your own additional files too.
 
@@ -35,17 +35,17 @@ Gulp takes care of processing source Sass files, but with some differences from 
 
 Both in **Development** and **Production**:
 
-*   Sass files are compiled and bundled together.
-*   Source files are processed by Autoprefixer.
+-   Sass files are compiled and bundled together.
+-   Source files are processed by Autoprefixer.
 
 Only in **Development**:
 
-*   Sourcemaps (`*.css.map`) are created.
+-   Sourcemaps (`*.css.map`) are created.
 
 Only in **Production**:
 
-*   Source files are processed by PurgeCSS.
-*   The final bundles are minified with CleanCSS.
+-   Source files are processed by PurgeCSS.
+-   The final bundles are minified with CleanCSS.
 
 ## Tree Shaking
 

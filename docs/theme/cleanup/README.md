@@ -82,11 +82,11 @@ add_action('wp_enqueue_scripts', 'brk_jquery_footer');
 
 This function removes some other misc unnecessary links and tags that WordPress places in the `<head>`, in particular:
 
-*   RSD link
-*   WLW link
-*   XML-RPC link
-*   Generator info
-*   Recent comments inline style
+-   RSD link
+-   WLW link
+-   XML-RPC link
+-   Generator info
+-   Recent comments inline style
 
 To disable this function and re-enable these links, comment the following line inside `functions/cleanup.php`:
 

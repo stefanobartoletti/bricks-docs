@@ -16,8 +16,8 @@ Gulp takes any `*.js` file placed **directly** inside `src/js` as a source, and 
 
 By default, two of these top-level files are included:
 
-*   **`scripts.js`**, the main file which acts as the index where all other single sub-modules are included. You should not write your scripts here, buth rather use sub-files.
-*   **`bsnative.js`**, that bundles together Bootstrap Native and its required dependency Popper.
+-   **`scripts.js`**, the main file which acts as the index where all other single sub-modules are included. You should not write your scripts here, buth rather use sub-files.
+-   **`bsnative.js`**, that bundles together Bootstrap Native and its required dependency Popper.
 
 Your own custom scripts should be written in their own files, placed in sub-folders of `src/js`, that you must then individually include in `scripts.js`.
 
@@ -33,16 +33,16 @@ Gulp takes care of processing source JavaScript files, but with some differences
 
 Both in **Development** and **Production**:
 
-*   Source files are bundled with Rollup.
-*   Source code is transpiled by Babel (i.e. ES6 will be converted into browser-readable code).
+-   Source files are bundled with Rollup.
+-   Source code is transpiled by Babel (i.e. ES6 will be converted into browser-readable code).
 
 Only in **Development**:
 
-*   Sourcemaps (`*.js.map`) are created.
+-   Sourcemaps (`*.js.map`) are created.
 
 Only in **Production**:
 
-*   The final bundles are minified with [Terser](https://terser.org/).
+-   The final bundles are minified with [Terser](https://terser.org/).
 
 ## Enqueues
 
@@ -55,7 +55,7 @@ wp_enqueue_script('bs-native-bundle', get_template_directory_uri() .'/dist/js/bs
 wp_enqueue_script('brk-scripts', get_template_directory_uri() .'/dist/js/scripts.min.js', false, null, true );
 ```
 
-***
+---
 
 ::: warning
 Bricks relies on plain JavaScript for both its native scripts and for external dependencies, such as Bootstrap Native or its other optional libraries, which are chosen to be as much lightweight and dependency-free as possible.

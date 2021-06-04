@@ -16,7 +16,7 @@ The latest version tested with Bricks is `6.5.7`
 
 Swiper is disabled by default, and can be enabled if needed by following these steps:
 
-*   Install the NPM package:
+-   Install the NPM package:
 
       <code-group>
 
@@ -34,13 +34,13 @@ Swiper is disabled by default, and can be enabled if needed by following these s
 
       </code-group>
 
-*   Uncomment the following line from `src/js/scripts.js`:
+-   Uncomment the following line from `src/js/scripts.js`:
 
     ```javascript
     import "./integrations/swiper"
     ```
 
-*   Uncomment the following line from `src/sass/style.scss`:
+-   Uncomment the following line from `src/sass/style.scss`:
 
     ```scss
     @import 'integrations/swiper';
@@ -52,10 +52,10 @@ Once installed, you can use [Swiper documentation](https://swiperjs.com/get-star
 
 Swiper's modules can be imported and enabled individually. Bricks by default enables two of them, namely `Navigation` and `Pagination`, both to offer a sensible default preset and to give an example on how to use the whole library.
 
-*   JavaScript is included from `src/js/integrations/swiper.js`, that imports the sources from `node_modules` and initializes the script. Some configuration settings are already present, Swiper itself is mounted on elements which have a  `swiper-container` class.
+-   JavaScript is included from `src/js/integrations/swiper.js`, that imports the sources from `node_modules` and initializes the script. Some configuration settings are already present, Swiper itself is mounted on elements which have a  `swiper-container` class.
 
     ::: tip
     Multiple Swiper instances, with different configurations, can be initialized and mounted on different elements.
     :::
 
-*   CSS is loaded from `src/sass/integrations/_swiper_.scss`, importing the sources from `node_modules` as well. The Sass file of the core library and of the Navigation and Pagination modules are loaded by default. If you need to use different modules, you should take care of import their styles if you need them.
+-   CSS is loaded from `src/sass/integrations/_swiper_.scss`, importing the sources from `node_modules` as well. The Sass file of the core library and of the Navigation and Pagination modules are loaded by default. If you need to use different modules, you should take care of import their styles if you need them.

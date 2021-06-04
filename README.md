@@ -6,7 +6,7 @@
 
 ![Netlify](https://img.shields.io/netlify/e87811e1-2155-441c-9b37-a530af318ff7)
 
-***
+---
 
 </div>
 

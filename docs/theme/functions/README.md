@@ -42,10 +42,10 @@ Custom Post Types and Custom Taxonomies definitions. Every `*.php` file inside t
 
 Enables some global functions that could be useful in most projects.
 
-*   `brk_svg_upload()` and `brk_svg_mimetype()` enable support for uploading SVG.
-*   `brk_excerpt_length()` defines the length of post's excerpts (disabled by default, uncomment its filter to enable it).
-*   `brk_thumbnail_alt()` custom template tag to retrive the `alt` value of an attachment image.
-*   `brk_breadcrumbs()` custom template tag to display breadcrumbs generated with Yoast or Rank Math, integated with Bootstrap CSS styles (you can use Bootstrap variables for customization).
+-   `brk_svg_upload()` and `brk_svg_mimetype()` enable support for uploading SVG.
+-   `brk_excerpt_length()` defines the length of post's excerpts (disabled by default, uncomment its filter to enable it).
+-   `brk_thumbnail_alt()` custom template tag to retrive the `alt` value of an attachment image.
+-   `brk_breadcrumbs()` custom template tag to display breadcrumbs generated with Yoast or Rank Math, integated with Bootstrap CSS styles (you can use Bootstrap variables for customization).
 
 ### `integrations/acf.php`
 
