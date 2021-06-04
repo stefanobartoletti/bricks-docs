@@ -17,6 +17,7 @@ WordPress standard theme setup, where theme supports are registered. (Read about
 ### `imagesizes.php`
 
 Image sizes definitions. These are technically part of the theme setup as described above, and placed on a separate file for convenience. These definitions are meant to be edited on a per-project basis, according to specific sizes required by custom templates (Read about [add_image_size()](https://developer.wordpress.org/reference/functions/add_image_size/) on the WordPress docs for reference).
+
 ### `enqueues.php`
 
 Includes CSS and JavaScript files in the theme. More details are available on the [CSS](/theme/css/) and [JavaScript](/theme/javascript/) pages of this documentation. (Read about [Including CSS & JavaScript](https://developer.wordpress.org/themes/basics/including-css-javascript/) on the WordPress docs for reference).
@@ -31,20 +32,20 @@ Registers sidebars. (Read about [Sidebars](https://developer.wordpress.org/theme
 
 ### `lib/class-wp-bootstrap-navwalker.php`
 
-Includes WP Bootstrap Nav Walker, to integrate Bootstrap dropdown navs with WordPress native menu manager. (Read about [wp-bootstrap-navwalker](https://wp-bootstrap.github.io/wp-bootstrap-navwalker/) on its docs). 
+Includes WP Bootstrap Nav Walker, to integrate Bootstrap dropdown navs with WordPress native menu manager. (Read about [wp-bootstrap-navwalker](https://wp-bootstrap.github.io/wp-bootstrap-navwalker/) on its docs).
 
 ### `functions/ctp/*.php`
 
-Custom Post Types and Custom Taxonomies definitions. Every `*.php` file inside this folder will be automatically loaded in to the theme. Two boilerplate `*.php.sample` files are already present and can be used a starting points to define your custom content. (Read about [Custom Post Types](https://developer.wordpress.org/reference/functions/register_post_type/) and [Custom Taxonomies](https://developer.wordpress.org/reference/functions/register_taxonomy/) on the WordPress docs or on [GenerateWP](https://generatewp.com/)). 
+Custom Post Types and Custom Taxonomies definitions. Every `*.php` file inside this folder will be automatically loaded in to the theme. Two boilerplate `*.php.sample` files are already present and can be used a starting points to define your custom content. (Read about [Custom Post Types](https://developer.wordpress.org/reference/functions/register_post_type/) and [Custom Taxonomies](https://developer.wordpress.org/reference/functions/register_taxonomy/) on the WordPress docs or on [GenerateWP](https://generatewp.com/)).
 
 ### `global.php`
 
 Enables some global functions that could be useful in most projects.
 
-- `brk_svg_upload()` and `brk_svg_mimetype()` enable support for uploading SVG.
-- `brk_excerpt_length()` defines the length of post's excerpts (disabled by default, uncomment its filter to enable it).
-- `brk_thumbnail_alt()` custom template tag to retrive the `alt` value of an attachment image.
-- `brk_breadcrumbs()` custom template tag to display breadcrumbs generated with Yoast or Rank Math, integated with Bootstrap CSS styles (you can use Bootstrap variables for customization).
+*   `brk_svg_upload()` and `brk_svg_mimetype()` enable support for uploading SVG.
+*   `brk_excerpt_length()` defines the length of post's excerpts (disabled by default, uncomment its filter to enable it).
+*   `brk_thumbnail_alt()` custom template tag to retrive the `alt` value of an attachment image.
+*   `brk_breadcrumbs()` custom template tag to display breadcrumbs generated with Yoast or Rank Math, integated with Bootstrap CSS styles (you can use Bootstrap variables for customization).
 
 ### `integrations/acf.php`
 

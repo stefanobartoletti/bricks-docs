@@ -4,9 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "lint:md": "remark . -o"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-preset-lint-recommended",
+      "remark-frontmatter"
+    ]
   },
   "devDependencies": {
+    "remark-cli": "^9.0.0",
+    "remark-frontmatter": "^3.0.0",
+    "remark-lint": "^8.0.0",
+    "remark-preset-lint-recommended": "^5.0.0",
     "vuepress": "^1.8.2",
     "vuepress-plugin-canonical": "^1.0.0",
     "vuepress-plugin-google-tag-manager": "^0.0.5",

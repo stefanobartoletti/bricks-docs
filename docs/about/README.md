@@ -16,5 +16,5 @@ Furthermore, this documentation site has become an interesting project on its ow
 
 I warmly welcome any kind of feedback, suggestion and contribution, both for the theme itself and for this documentation. Both repositories are hosted on GitHub:
 
-  - Theme: [stefanobartoletti/bricks](https://github.com/stefanobartoletti/bricks)
-  - Documentation: [stefanobartoletti/bricks-docs](https://github.com/stefanobartoletti/bricks-docs)
+*   Theme: [stefanobartoletti/bricks](https://github.com/stefanobartoletti/bricks)
+*   Documentation: [stefanobartoletti/bricks-docs](https://github.com/stefanobartoletti/bricks-docs)

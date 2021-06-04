@@ -26,7 +26,6 @@ function brk_styles_scripts() {
 
 Always on `functions/enqueues.php`, a custom function preloads required Google Fonts resources:
 
-
 ```php
 function brk_google_fonts_preconnect() {
     echo '<link rel="preconnect" href="https://fonts.gstatic.com/">'."\n";
