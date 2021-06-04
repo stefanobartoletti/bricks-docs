@@ -18,10 +18,8 @@ You can then use these images in your template files in any way that you may nee
 <img src="<?php echo $my_image; ?>" alt="My Image">
 ```
 
-
 ::: warning
 Please note that images placed directly inside your theme folder should be considered as static resources, and thus only used when you don't expect the final user to be able to modify them (i.e. theme-related images as opposed to real dynamic content, such as fallback or default pictures, icons, decorative images, etc. ).
 
 Any image that you want to be loaded dynamically and that can be considered real content, should be uploaded into WordPress "Media" manager and attached to your pages/articles with standard WordPress template tags.
 :::
-
