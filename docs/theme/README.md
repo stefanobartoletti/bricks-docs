@@ -39,4 +39,5 @@ Contributions are warmly welcome, especially about:
 -   code quality
 -   best practices
 -   open-source project standards
-    :::
+
+:::
