@@ -8,6 +8,10 @@
     "lint:md": "remark . -o"
   },
   "remarkConfig": {
+    "settings": {
+      "bullet": "-",
+      "rule": "-"
+    },
     "plugins": [
       "remark-preset-lint-recommended",
       "remark-frontmatter"
