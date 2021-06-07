@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "lint:md": "remark . -o"
+    "lint:md": "remark . -o",
+    "lint": "yarn lint:md"
   },
   "remarkConfig": {
     "settings": {
