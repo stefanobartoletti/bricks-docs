@@ -8,28 +8,27 @@ description: 'Bricks Wordpress starter theme folder structure'
 
 ## Overview
 
-```
-(theme root)
-├─ acf-json
-├─ dist
-├─ functions
-│  ├─ cpt
-│  └─ lib
-├─ languages
-├─ node_modules
-├─ src
-│  ├─ fonts
-│  ├─ img
-│  ├─ js
-│  └─ sass
-└─ templates
-```
+    (theme root)
+    ├─ acf-json
+    ├─ dist
+    ├─ functions
+    │  ├─ cpt
+    │  └─ lib
+    ├─ languages
+    ├─ node_modules
+    ├─ src
+    │  ├─ fonts
+    │  ├─ img
+    │  ├─ js
+    │  └─ sass
+    └─ templates
 
 ## Folder Details
 
 ### `acf-json`
 
 Support for Advanced Custom Fields [local JSON](https://www.advancedcustomfields.com/resources/local-json/). You can delete this directory if you don't use this feature (more details on [ACF](/integrations/acf/) page).
+
 ### `dist`
 
 Compiled resources coming from `src` and built by Gulp, directly loaded into the theme.
@@ -38,14 +37,13 @@ Compiled resources coming from `src` and built by Gulp, directly loaded into the
 The contents of this folder are automatically updated and overwritten by compiling tasks. You should not manually edit anything here.
 :::
 
-
 ### `functions`
 
 Modularization of `functions.php` WordPress file (more details on [Functions](/theme/functions/) page).
 
 #### `functions/cpt`
 
-[Custom Post Types](https://developer.wordpress.org/reference/functions/register_post_type/) and [Custom Taxonomies](https://developer.wordpress.org/reference/functions/register_taxonomy/) definitions.   
+[Custom Post Types](https://developer.wordpress.org/reference/functions/register_post_type/) and [Custom Taxonomies](https://developer.wordpress.org/reference/functions/register_taxonomy/) definitions.\
 Two `*.php.sample` files are already present. You can rename them to `*.php` and start customizing them to your needs (Any `*.php` file present in this folder will be automatically loaded in to the theme)
 
 #### `functions/lib`
@@ -71,7 +69,7 @@ Source images (will be optimized with imagemin).
 #### `src/js`
 
 Source JavaScript files (will be bundled by Rollup).
-    
+
 #### `src/sass`
 
 Source Sass files (will be optimized by PurgeCSS and Autoprefixer).

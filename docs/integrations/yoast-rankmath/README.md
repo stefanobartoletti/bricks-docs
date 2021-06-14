@@ -16,8 +16,8 @@ This template tag acts as a wrapper for Yoast or RankMath breadcrumbs functions:
 
 Using `brk_breadcrumbs()` instead of their native functions has two main advantages:
 
-- it allows to switch from one of these plugins to the other without the need to manually edit your templates, since the conditions are automatically checked form the custom function itself.
-- it add Bootstrap CSS classes to the breadcrumbs, allowing for a visual integration with the rest of the site and for an easier customization with Bootstrap variables.
+-   it allows to switch from one of these plugins to the other without the need to manually edit your templates, since the conditions are automatically checked form the custom function itself.
+-   it add Bootstrap CSS classes to the breadcrumbs, allowing for a visual integration with the rest of the site and for an easier customization with Bootstrap variables.
 
 ::: tip
 Yoast and RankMath breadcrumbs functions are of course availabe to be used even by themselves, if for some reason you don't need the integration that Bricks provides to you.

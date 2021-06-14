@@ -34,6 +34,6 @@ Some custom fields, [registered directly from the php file](https://www.advanced
 
 These fields are used to define:
 
-- Contact info, which are then displayed in the site footer.
-- Social profiles, which are displayed on the site as icons.
-- Some meta tags (at the moment, only a custom theme color for Chrome for Android).
+-   Contact info, which are then displayed in the site footer.
+-   Social profiles, which are displayed on the site as icons.
+-   Some meta tags (at the moment, only a custom theme color for Chrome for Android).

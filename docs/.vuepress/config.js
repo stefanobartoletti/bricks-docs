@@ -63,6 +63,7 @@ module.exports = {
                     children: [
                         '/theme/folders/',
                         '/theme/functions/',
+                        '/theme/cleanup/',
                         '/theme/bootstrap/',
                     ]
                 },

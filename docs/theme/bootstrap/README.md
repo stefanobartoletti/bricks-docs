@@ -6,7 +6,7 @@ description: 'Bricks WordPress starter theme Bootstrap integration'
 
 # {{ $frontmatter.title }}
 
-Bricks comes with a built-in integration with Bootstrap 4, which is included as a NPM package and is compiled from its source files. 
+Bricks comes with a built-in integration with Bootstrap 4, which is included as a NPM package and is compiled from its source files.
 
 The template files already include components and classes from this framework, making it easy to quickly start a new project.
 
