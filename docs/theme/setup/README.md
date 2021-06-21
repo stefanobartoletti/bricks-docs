@@ -33,20 +33,24 @@ description: 'How to install Bricks WordPress starter theme'
 
 -   Install dependencies with your package manager (the install script will also perform the initial setup):
 
-      <code-group>
+      <CodeGroup>
 
-      <code-block title="Yarn" active> 
+      <CodeGroupItem title="Yarn" active> 
+
       ```bash
       yarn install
       # or simply
       yarn
       ```
-      </code-block>
 
-      <code-block title="npm"> 
+      </CodeGroupItem>
+
+      <CodeGroupItem title="npm"> 
+
       ```bash
       npm install
       ```
-      </code-block>
+      
+      </CodeGroupItem>
 
-      </code-group>
+      </CodeGroup>

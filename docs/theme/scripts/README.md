@@ -12,41 +12,49 @@ Bricks comes with some predefined scripts, which are handy aliases to pre-config
 
 ---
 
-<code-group>
+<CodeGroup>
 
-<code-block title="Yarn" active> 
+<CodeGroupItem title="Yarn" active> 
+
 ```bash
 yarn dev
 ```
-</code-block>
 
-<code-block title="npm"> 
+</CodeGroupItem>
+
+<CodeGroupItem title="npm"> 
+
 ```bash
 npm run dev
 ```
-</code-block>
 
-</code-group>
+</CodeGroupItem>
+
+</CodeGroup>
 
 This script compiles all resources for a development environment (it uses `NODE_ENV=development` value). It is also automatically run as a post-install script after the initial installation.
 
 ---
 
-<code-group>
+<CodeGroup>
 
-<code-block title="Yarn" active> 
+<CodeGroupItem title="Yarn" active> 
+
 ```bash
 yarn watch
 ```
-</code-block>
 
-<code-block title="npm"> 
+</CodeGroupItem>
+
+<CodeGroupItem title="npm"> 
+
 ```bash
 npm run watch
 ```
-</code-block>
 
-</code-group>
+</CodeGroupItem>
+
+</CodeGroup>
 
 This script starts both [Gulp watcher](https://gulpjs.com/docs/en/getting-started/watching-files/) and [BrowserSync](https://www.browsersync.io/), to automatically compile modified resources on-the-fly and inject them in your browser, during local development (like **dev**, it uses `NODE_ENV=development` value).
 
@@ -56,21 +64,25 @@ BrowserSync proxy server can be acessed by default from port `3000`, and its con
 
 ---
 
-<code-group>
+<CodeGroup>
 
-<code-block title="Yarn" active> 
+<CodeGroupItem title="Yarn" active> 
+
 ```bash
 yarn build
 ```
-</code-block>
 
-<code-block title="npm"> 
+</CodeGroupItem>
+
+<CodeGroupItem title="npm"> 
+
 ```bash
 npm run build
 ```
-</code-block>
 
-</code-group>
+</CodeGroupItem>
+
+</CodeGroup>
 
 This script compiles all resources for a production environment (it uses `NODE_ENV=production` value). It performs minification and tree-shaking to reduce the size of the final resource bundles.
 

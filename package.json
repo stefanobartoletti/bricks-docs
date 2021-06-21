@@ -19,6 +19,7 @@
     ]
   },
   "devDependencies": {
+    "@vuepress/plugin-register-components": "^2.0.0-beta.18",
     "remark-cli": "^9.0.0",
     "remark-frontmatter": "^3.0.0",
     "remark-lint": "^8.0.0",

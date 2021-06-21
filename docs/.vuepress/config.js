@@ -1,3 +1,5 @@
+const { path } = require('@vuepress/utils')
+
 module.exports = {
     title: 'Bricks',
     description: 'A modular WordPress starter theme powered by Bootstrap and Gulp',
@@ -21,25 +23,31 @@ module.exports = {
     ],
     dest: 'dist',
     plugins: [
+        // [
+        //     'vuepress-plugin-google-tag-manager', {
+        //         gtm: 'GTM-NNXNK4M',
+        //     }
+        // ],
+        // [
+        //     'sitemap', {
+        //         hostname: 'https://bricks.stefanobartoletti.it'
+        //     },
+        // ],
+        // [
+        //     'vuepress-plugin-canonical', {
+        //       baseURL: 'https://bricks.stefanobartoletti.it',
+        //     }
+        // ]
         [
-            'vuepress-plugin-google-tag-manager', {
-                gtm: 'GTM-NNXNK4M',
-            }
-        ],
-        [
-            'sitemap', {
-                hostname: 'https://bricks.stefanobartoletti.it'
+            '@vuepress/register-components',
+            {
+              componentsDir: path.resolve(__dirname, './components'),
             },
-        ],
-        [
-            'vuepress-plugin-canonical', {
-              baseURL: 'https://bricks.stefanobartoletti.it',
-            }
         ]
     ], 
     themeConfig: {
         logo: '/bricks-logo.svg',
-        nav: [
+        navbar: [
             { text: 'Home', link: '/' },
             { text: 'Theme', link: '/theme/' },
             { text: 'Integrations', link: '/integrations/' },
@@ -48,8 +56,8 @@ module.exports = {
         sidebar: {
             '/theme/': [
                 {
-                    title: 'Get started',
-                    collapsable: false,
+                    isGroup: true,
+                    text: 'Get started',
                     children: [
                         '/theme/',
                         '/theme/setup/',
@@ -58,8 +66,8 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Theme',
-                    collapsable: false,
+                    isGroup: true,
+                    text: 'Theme',
                     children: [
                         '/theme/folders/',
                         '/theme/functions/',
@@ -68,8 +76,8 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Assets',
-                    collapsable: false,
+                    isGroup: true,
+                    text: 'Assets',
                     children: [
                         '/theme/css/',
                         '/theme/javascript/',
@@ -82,14 +90,14 @@ module.exports = {
             ],
             '/integrations/': [
                 {
-                    collapsable: false,
+                    isGroup: true,
                     children: [
                         '/integrations/',
                     ]
                 },
                 {
-                    title: 'WordPress',
-                    collapsable: false,
+                    isGroup: true,
+                    text: 'WordPress',
                     children: [
                         // '/integrations/woocommerce/',
                         '/integrations/acf/',
@@ -98,8 +106,8 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'JavaScript Libraries',
-                    collapsable: false,
+                    isGroup: true,
+                    text: 'JavaScript Libraries',
                     children: [
                         '/integrations/aos/',
                         '/integrations/swiper/',
@@ -108,7 +116,7 @@ module.exports = {
             ],
             '/about/': [
                 {
-                    collapsable: false,
+                    isGroup: true,
                     children: [
                         '/about/',
                         '/about/author/',
@@ -118,8 +126,11 @@ module.exports = {
         },
         repo: 'stefanobartoletti/bricks',
         docsRepo: 'stefanobartoletti/bricks-docs',
+        docsBranch: 'devel',
         docsDir: 'docs',
         editLinks: true,
+        editLinkPattern: ':repo/edit/:branch/:path',
+        contributors: true,
         lastUpdated: true,
         smoothScroll: true,
     }

@@ -18,21 +18,25 @@ AOS is disabled by default, and can be enabled if needed by following these step
 
 -   Install the NPM package:
 
-      <code-group>
+      <CodeGroup>
 
-      <code-block title="Yarn" active> 
+      <CodeGroupItem title="Yarn" active> 
+
       ```bash
       yarn add aos
       ```
-      </code-block>
 
-      <code-block title="npm"> 
+      </CodeGroupItem>
+
+      <CodeGroupItem title="npm"> 
+
       ```bash
       npm install aos
       ```
-      </code-block>
+      
+      </CodeGroupItem>
 
-      </code-group>
+      </CodeGroup>
 
 -   Uncomment the following line from `src/js/scripts.js`:
 

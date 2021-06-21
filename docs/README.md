@@ -3,8 +3,10 @@ home: true
 heroImage: /icon.png
 heroText: Bricks
 tagline: A modular WordPress starter theme powered by Bootstrap and Gulp
-actionText: Get Started
-actionLink: /theme/
+actions:
+- text: Get started
+  link: /theme/
+  type: primary
 features:
 -   title: Modular
     details: Built with modularity in mind, Bricks is a versatile starter theme that can be easily tailored to every project's needs. It integrates with many tools, libraries and plugins commonly used in WordPress development.
