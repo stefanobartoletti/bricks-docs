@@ -2,7 +2,7 @@
 home: true
 heroImage: /icon.png
 heroText: Bricks
-tagline: A modular WordPress starter theme powered by Bootstrap and Gulp
+tagline: A modular WordPress starter theme powered by Bootstrap 5 and Gulp
 actionText: Get Started
 actionLink: /theme/
 features:
