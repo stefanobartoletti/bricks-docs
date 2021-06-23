@@ -68,5 +68,5 @@ Bricks uses the standard WordPress `wp_enqueue_style()` function to to include C
 In example, the main theme stylesheet is included like this:
 
 ```php
-wp_enqueue_style('brk-styles', get_template_directory_uri() .'/dist/css/style.min.css');
+wp_enqueue_style('brk-styles', get_template_directory_uri() .'/dist/css/style.min.css', false, $themeVersion, 'all' );
 ```
