@@ -1,7 +1,7 @@
 ---
 title: About
 lang: en-US
-description: 'About Bricks, a modular WordPress starter theme powered by Bootstrap and Gulp'
+description: 'About Bricks, a modular WordPress starter theme powered by Bootstrap 5 and Gulp'
 ---
 
 # {{ $frontmatter.title }}
