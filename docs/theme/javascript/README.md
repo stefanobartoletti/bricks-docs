@@ -17,7 +17,7 @@ Gulp takes any `*.js` file placed **directly** inside `src/js` as a source, and 
 By default, two of these top-level files are included:
 
 -   **`scripts.js`**, the main file which acts as the index where all other single sub-modules are included. You should not write your scripts here, buth rather use sub-files.
--   **`bsnative.js`**, that bundles together Bootstrap Native and its required dependency Popper.
+-   **`bootstrap.js`**, that bundles together Bootstrap and its required dependency Popper.
 
 Your own custom scripts should be written in their own files, placed in sub-folders of `src/js`, that you must then individually include in `scripts.js`.
 
@@ -51,14 +51,14 @@ Bricks uses the standard WordPress `wp_enqueue_script()` function to to include 
 In example, the two main JavaScript mentioned above are included like this:
 
 ```php
-wp_enqueue_script('bs-native-bundle', get_template_directory_uri() .'/dist/js/bsnative.min.js', false, null, true );
-wp_enqueue_script('brk-scripts', get_template_directory_uri() .'/dist/js/scripts.min.js', false, null, true );
+wp_enqueue_script('bootstrap-bundle', get_template_directory_uri() .'/dist/js/bootstrap.min.js', false, $themeVersion, true );
+wp_enqueue_script('brk-scripts', get_template_directory_uri() .'/dist/js/scripts.min.js', false, $themeVersion, true );
 ```
 
 ---
 
 ::: warning
-Bricks relies on plain JavaScript for both its native scripts and for external dependencies, such as Bootstrap Native or its other optional libraries, which are chosen to be as much lightweight and dependency-free as possible.
+Bricks relies on plain JavaScript for both its native scripts and for external dependencies, like its optional libraries, which are chosen to be as much lightweight and dependency-free as possible.
 
 WordPress natively includes jQuery and many plugins rely on it to work properly, so you can use it even in your custom theme if you really need it. Anyway, jQuery is not actively supported by Bricks and its use is not encouraged.
 :::

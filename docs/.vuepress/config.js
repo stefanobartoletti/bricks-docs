@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Bricks',
-    description: 'A modular WordPress starter theme powered by Bootstrap and Gulp',
+    description: 'A modular WordPress starter theme powered by Bootstrap 5 and Gulp',
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }],
         ['meta', { name: 'theme-color', content: '#37c871' }],
@@ -9,13 +9,13 @@ module.exports = {
         ['meta', { property: 'og:url', content: 'https://bricks.stefanobartoletti.it/' }],
         ['meta', { property: 'og:title', content: 'Bricks Documentation' }],
         ['meta', { property: 'og:site_name', content: 'Bricks' }],
-        ['meta', { property: 'og:description', content: "A modular WordPress starter theme powered by Bootstrap and Gulp" }],
+        ['meta', { property: 'og:description', content: "A modular WordPress starter theme powered by Bootstrap 5 and Gulp" }],
         ['meta', { property: 'og:image', content: 'https://bricks.stefanobartoletti.it/preview.png' }],
         ['meta', { property: 'og:image:type', content: 'image/png' }],
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
         ['meta', { name: 'twitter:site', content: '@ste_bartoletti' }],
         ['meta', { name: 'twitter:title', content: 'Bricks Documentation' }],
-        ['meta', { name: 'twitter:description', content: "A modular WordPress starter theme powered by Bootstrap and Gulp" }],
+        ['meta', { name: 'twitter:description', content: "A modular WordPress starter theme powered by Bootstrap 5 and Gulp" }],
         ['meta', { name: 'twitter:image', content: 'https://bricks.stefanobartoletti.it/preview.png' }],
         ['meta', { name: 'google-site-verification', content: 'snVUv6mUDur4MkL3CDDFGFDv7TPFm4vAk5BAfK-cDsw' }]
     ],
