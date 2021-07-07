@@ -45,6 +45,10 @@ module.exports = {
             { text: 'Integrations', link: '/integrations/' },
             { text: 'About', link: '/about/' },
         ],
+        algolia: {
+            apiKey: 'fdfc180ae834b22f0171e561027a3533',
+            indexName: 'bricks-wp'
+        },
         sidebar: {
             '/theme/': [
                 {
