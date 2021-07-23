@@ -43,6 +43,7 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Theme', link: '/theme/' },
             { text: 'Integrations', link: '/integrations/' },
+            { text: 'Changelog', link: '/changelog/' },
             { text: 'About', link: '/about/' },
         ],
         algolia: {
@@ -107,6 +108,14 @@ module.exports = {
                     children: [
                         '/integrations/aos/',
                         '/integrations/swiper/',
+                    ]
+                },
+            ],
+            '/changelog/': [
+                {
+                    collapsable: false,
+                    children: [
+                        '/changelog/',
                     ]
                 },
             ],
