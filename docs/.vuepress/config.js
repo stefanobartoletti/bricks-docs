@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Bricks',
+    title: 'Bricks WordPress Starter Theme',
     description: 'A modular WordPress starter theme powered by Bootstrap 5 and Gulp',
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }],
