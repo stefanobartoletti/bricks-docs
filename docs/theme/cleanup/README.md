@@ -20,7 +20,7 @@ Bricks tries to provide a reasonable setup valid for most projects, but if your 
 
 ### `brk_disable_gutenberg()`
 
-This function disables Gutenberg Block Editor, WordPress internal page builder, and restores the classic editor in all pages.
+This function disables Gutenberg Block Editor, WordPress internal page builder, and restores the classic editor in all pages. It also disables it on ther widget management panel.
 
 It also prevents Gutenberg CSS to be loaded on the site's frontend.
 
