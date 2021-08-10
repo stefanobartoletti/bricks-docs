@@ -43,8 +43,8 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Theme', link: '/theme/' },
             { text: 'Integrations', link: '/integrations/' },
-            { text: 'Changelog', link: '/changelog/' },
             { text: 'About', link: '/about/' },
+            { text: 'Changelog', link: 'https://github.com/stefanobartoletti/bricks/blob/master/CHANGELOG.md' },
         ],
         algolia: {
             apiKey: 'fdfc180ae834b22f0171e561027a3533',
