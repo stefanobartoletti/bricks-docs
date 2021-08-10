@@ -22,6 +22,14 @@ To take advantage of this, you should use `bricks` as text domain even for your 
 
 Actual `*.po` and `*.mo` translation files should be placed inside `languages/` folder as well, and can be generated with a tool like [Poedit](https://poedit.net/).
 
+::: tip
+Bricks' templates have English text strings by default, and already includes translations for the following languages:
+
+-   Italian
+
+Contributions to add translations for additional languages are kindly welcome, and could be a nice way to help improve this project. If you want to contribute you can open a pull request on the [GitHub repository](https://github.com/stefanobartoletti/bricks).
+:::
+
 ::: warning
 The localization task is included only in `yarn build` script, and not in `yarn dev` or `yarn watch`, to prevent updating `template.pot` too often during active development.
 :::
