@@ -21,7 +21,7 @@
   "devDependencies": {
     "remark-cli": "^10.0.0",
     "remark-frontmatter": "^4.0.0",
-    "remark-lint": "^9.0.0",
+    "remark-lint": "^9.0.1",
     "remark-preset-lint-recommended": "^6.0.1",
     "vuepress": "^1.8.2",
     "vuepress-plugin-canonical": "^1.0.0",
