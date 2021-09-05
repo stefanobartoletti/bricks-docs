@@ -78,12 +78,12 @@ This script compiles all resources for a production environment (it uses `NODE_E
 
 Scripts described above should be sufficient in most cases, but if needed, Gulp is configured to expose indivudual sub-task that can be run separately, to quickly recompile a single resource type. When running tasks this way `NODE_ENV=development` is used, so resources won't be optimized for production.
 
-Since these sub-tasks are not intended to be regularly used dureing the development process, they are not defined as scripts within `package.json` and should be run direclty with Gulp. It is advised to install [gulp-cli](https://github.com/gulpjs/gulp-cli) globally to easily use them (just run `npm install -g gulp-cli`).
+Since these sub-tasks are not intended to be regularly used during the development process, they are not defined as scripts within `package.json` and should be run direclty with Gulp.
 
 ---
 
 ```bash
-gulp css
+yarn gulp css
 ```
 
 Compiles source Sass files into final CSS (more details on [CSS](/theme/css/) page).
@@ -91,7 +91,7 @@ Compiles source Sass files into final CSS (more details on [CSS](/theme/css/) pa
 ---
 
 ```bash
-gulp js
+yarn gulp js
 ```
 
 Compiles source JavaScript files into final bundles (more details on [JavaScript](/theme/javascript/) page).
@@ -99,7 +99,7 @@ Compiles source JavaScript files into final bundles (more details on [JavaScript
 ---
 
 ```bash
-gulp img
+yarn gulp img
 ```
 
 Optimizes source image files (more details on [Images](/theme/images/) page).
@@ -107,7 +107,7 @@ Optimizes source image files (more details on [Images](/theme/images/) page).
 ---
 
 ```bash
-gulp fonts
+yarn gulp fonts
 ```
 
 Convert source font files into optimized web formats (more details on [Fonts](/theme/fonts/) page).
@@ -115,7 +115,7 @@ Convert source font files into optimized web formats (more details on [Fonts](/t
 ---
 
 ```bash
-gulp icons
+yarn gulp icons
 ```
 
 Copies source **Font Awesome** JavaScript file into `./dist` folder. Since it will be optimized only for production, running this task individually has no practical use (more details on [Icons](/theme/icons/) page).
@@ -123,7 +123,7 @@ Copies source **Font Awesome** JavaScript file into `./dist` folder. Since it wi
 ---
 
 ```bash
-gulp pot
+yarn gulp i18n
 ```
 
 Scans PHP files for [localization functions](https://developer.wordpress.org/apis/handbook/internationalization/internationalization-functions/) and writes a `.pot` template file (more details on [Localization](/theme/localization/) page).
