@@ -10,7 +10,6 @@ description: 'How to install Bricks WordPress starter theme'
 
 -   [Git](https://git-scm.com/) to clone this repository.
 -   [Yarn](https://yarnpkg.com/) as the preferred tool to manage dependencies and run development scripts (you can also use plain [npm](https://nodejs.org/)).
--   [Gulp-cli](https://github.com/gulpjs/gulp-cli) installed globally to run individual sub-tasks (Optional).
 -   [Advanced Custom Fields](https://www.advancedcustomfields.com/) (Regular or PRO) to take advantage of its integration with Bricks (Optional but strongly recommended).
 
 ## Installation
@@ -31,7 +30,7 @@ description: 'How to install Bricks WordPress starter theme'
 
 -   Run `git init` to initialize a new repository from scratch (you may skip this step, i.e. if you already have a Git repository versioning your entire WordPress installation).
 
--   Install dependencies with your package manager (the install script will also perform the initial setup):
+-   Install dependencies with your package manager:
 
       <code-group>
 
@@ -50,3 +49,21 @@ description: 'How to install Bricks WordPress starter theme'
       </code-block>
 
       </code-group>
+
+-   Compile all resources:
+
+    <code-group>
+
+    <code-block title="Yarn" active> 
+    ```bash
+    yarn dev
+    ```
+    </code-block>
+
+    <code-block title="npm"> 
+    ```bash
+    npm run dev
+    ```
+    </code-block>
+
+    </code-group>
