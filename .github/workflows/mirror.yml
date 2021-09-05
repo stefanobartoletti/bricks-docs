@@ -2,6 +2,10 @@ name: Mirroring
 
 on: [ push, delete, create ]
 
+# Ensures that only one mirror task will run at a time.
+concurrency:
+  group: git-mirror
+
 jobs:
   git-mirror:
     runs-on: ubuntu-latest
