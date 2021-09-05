@@ -28,7 +28,7 @@ npm run dev
 
 </code-group>
 
-This script compiles all resources for a development environment (it uses `NODE_ENV=development` value). It is also automatically run as a post-install script after the initial installation.
+This script compiles all resources for a development environment (it uses `NODE_ENV=development` value).
 
 ---
 
