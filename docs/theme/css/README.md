@@ -75,7 +75,7 @@ wp_enqueue_style('brk-styles', get_template_directory_uri() .'/dist/css/style.mi
 
 Source Sass files can be linted with Stylelint by running:
 
-``` bash
+```bash
 yarn lint:style 
 ```
 

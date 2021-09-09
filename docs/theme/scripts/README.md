@@ -12,7 +12,6 @@ Bricks comes with some predefined scripts, which are handy aliases to pre-config
 
 ### Compile (Development Environment)
 
-
 <code-group>
 
 <code-block title="Yarn" active> 
@@ -32,7 +31,6 @@ npm run dev
 This script compiles all resources for a development environment (it uses `NODE_ENV=development` value).
 
 ### Watcher & Live server
-
 
 <code-group>
 
@@ -58,7 +56,6 @@ BrowserSync proxy server can be acessed by default from port `3000`, and its con
 
 ### Compile (Production Environment)
 
-
 <code-group>
 
 <code-block title="Yarn" active> 
@@ -80,7 +77,6 @@ This script compiles all resources for a production environment (it uses `NODE_E
 ### Linting
 
 Linting scripts are detailed on the [Linting](/theme/linting/) page of this documentation
-
 
 ## Tasks
 
