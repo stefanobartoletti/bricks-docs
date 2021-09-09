@@ -62,3 +62,14 @@ Bricks relies on plain JavaScript for both its native scripts and for external d
 
 WordPress natively includes jQuery and many plugins rely on it to work properly, so you can use it even in your custom theme if you really need it. Anyway, jQuery is not actively supported by Bricks and its use is not encouraged.
 :::
+
+
+## Linting
+
+Source JavaScript files can be linted with ESLint by running:
+
+``` bash
+yarn lint:js 
+```
+
+More details about this on the [Linting](/theme/linting/) page of this documentation.

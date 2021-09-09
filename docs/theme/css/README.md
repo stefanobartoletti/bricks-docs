@@ -70,3 +70,13 @@ In example, the main theme stylesheet is included like this:
 ```php
 wp_enqueue_style('brk-styles', get_template_directory_uri() .'/dist/css/style.min.css', false, $themeVersion, 'all' );
 ```
+
+## Linting
+
+Source Sass files can be linted with Stylelint by running:
+
+``` bash
+yarn lint:style 
+```
+
+More details about this on the [Linting](/theme/linting/) page of this documentation.
