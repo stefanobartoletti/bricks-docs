@@ -10,6 +10,7 @@ description: 'How to install Bricks WordPress starter theme'
 
 -   [Git](https://git-scm.com/) to clone this repository.
 -   [Yarn](https://yarnpkg.com/) as the preferred tool to manage dependencies and run development scripts (you can also use plain [npm](https://nodejs.org/)).
+-   [Composer](https://getcomposer.org/) to manage PHP dependencies (Optional, used for PHP linting).
 -   [Advanced Custom Fields](https://www.advancedcustomfields.com/) (Regular or PRO) to take advantage of its integration with Bricks (Optional but strongly recommended).
 
 ## Installation
