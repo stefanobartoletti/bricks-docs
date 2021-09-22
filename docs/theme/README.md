@@ -24,7 +24,8 @@ It is lightweight and SEO friendly, by optimizing all of its assets and using se
 -   [Font Awesome 5](https://fontawesome.com/) (*SVG with JavaScript* version, parsed and minified by [gulp-fa-minify](https://github.com/FA-Minify/gulp-fa-minify))
 -   CSS bundling, including [Autoprefixer](https://autoprefixer.github.io/) and [PurgeCSS](https://purgecss.com/)
 -   JavaScript bundling with [Rollup](https://www.rollupjs.org/) and [Babel](https://babeljs.io/)
--   [BrowserSync](https://www.browsersync.io/)
+-   Code linting with [ESLint](https://eslint.org/), [Stylelint](https://stylelint.io/) and [phpcs](https://github.com/squizlabs/PHP_CodeSniffer).
+-   [BrowserSync](https://www.browsersync.io/) live server.
 -   Automatic conversion of custom fonts into *woff2* web format
 -   Support for localization by generation of a `.pot` [template file](https://developer.wordpress.org/themes/functionality/internationalization/)
 -   Support for integration of some optional JavaScript libraries
