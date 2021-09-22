@@ -51,8 +51,8 @@ Bricks uses the standard WordPress `wp_enqueue_script()` function to to include 
 In example, the two main JavaScript mentioned above are included like this:
 
 ```php
-wp_enqueue_script('bootstrap-bundle', get_template_directory_uri() .'/dist/js/bootstrap.min.js', false, $themeVersion, true );
-wp_enqueue_script('brk-scripts', get_template_directory_uri() .'/dist/js/scripts.min.js', false, $themeVersion, true );
+wp_enqueue_script('bootstrap-bundle', get_template_directory_uri() .'/dist/js/bootstrap.min.js', false, $theme_version, true );
+wp_enqueue_script('brk-scripts', get_template_directory_uri() .'/dist/js/scripts.min.js', false, $theme_version, true );
 ```
 
 ---
@@ -62,3 +62,13 @@ Bricks relies on plain JavaScript for both its native scripts and for external d
 
 WordPress natively includes jQuery and many plugins rely on it to work properly, so you can use it even in your custom theme if you really need it. Anyway, jQuery is not actively supported by Bricks and its use is not encouraged.
 :::
+
+## Linting
+
+Source JavaScript files can be linted with ESLint by running:
+
+```bash
+yarn lint:js 
+```
+
+More details about this on the [Linting](/theme/linting/) page of this documentation.

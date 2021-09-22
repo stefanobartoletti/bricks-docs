@@ -60,6 +60,7 @@ module.exports = {
                         '/theme/setup/',
                         '/theme/configuration/',
                         '/theme/scripts/',
+                        '/theme/linting/',
                     ]
                 },
                 {

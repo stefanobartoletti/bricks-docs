@@ -21,7 +21,8 @@ description: 'Bricks Wordpress starter theme folder structure'
     │  ├─ img
     │  ├─ js
     │  └─ sass
-    └─ templates
+    ├─ templates
+    └─ vendor
 
 ## Folder Details
 
@@ -49,6 +50,10 @@ Two `*.php.sample` files are already present. You can rename them to `*.php` and
 #### `functions/lib`
 
 Third-party php resources. [WP Bootstrap Navwalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker) is already present, you can add here more php libraries you might need to include.
+
+### `node_modules`
+
+NPM dependencies. Automatically created during installation, it should not be modified manually.
 
 ### `languages`
 
@@ -81,3 +86,7 @@ Template files partials, to be called with `get_template_part()`. Bricks templat
 ::: tip
 You are encouraged to take advantage of [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/) and modularize your own custom templates as well, to keep your code clean, simple and easily maintainable.
 :::
+
+### `vendor`
+
+Composer dependencies. Automatically created during installation, it should not be modified manually.
