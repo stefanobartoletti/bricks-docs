@@ -51,8 +51,8 @@ Bricks uses the standard WordPress `wp_enqueue_script()` function to to include 
 In example, the two main JavaScript mentioned above are included like this:
 
 ```php
-wp_enqueue_script('bootstrap-bundle', get_template_directory_uri() .'/dist/js/bootstrap.min.js', false, $themeVersion, true );
-wp_enqueue_script('brk-scripts', get_template_directory_uri() .'/dist/js/scripts.min.js', false, $themeVersion, true );
+wp_enqueue_script('bootstrap-bundle', get_template_directory_uri() .'/dist/js/bootstrap.min.js', false, $theme_version, true );
+wp_enqueue_script('brk-scripts', get_template_directory_uri() .'/dist/js/scripts.min.js', false, $theme_version, true );
 ```
 
 ---

@@ -25,7 +25,7 @@ To effectively use this feature, all used icons should be manually added to a sa
 The processed file will be located then at `dist/js/fa5.min.js`, and included in the theme from `functions/enqueues.php`:
 
 ```php
-wp_enqueue_script('fontawesome', get_template_directory_uri() .'/dist/js/fa5.min.js', false, $themeVersion, true );
+wp_enqueue_script('fontawesome', get_template_directory_uri() .'/dist/js/fa5.min.js', false, $theme_version, true );
 ```
 
 If you don't need to use Font Awesome icons, you can simply comment out this line.
