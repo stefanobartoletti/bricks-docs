@@ -25,7 +25,12 @@ Actual `*.po` and `*.mo` translation files should be placed inside `languages/` 
 ::: tip
 Bricks' templates have English text strings by default, and already includes translations for the following languages:
 
--   Italian
+-   🇨🇿 Czech
+-   🇫🇷 French
+-   🇩🇪 German
+-   🇮🇹 Italian
+-   🇱🇹 Lithuanian
+-   🇪🇸 Spanish
 
 Contributions to add translations for additional languages are kindly welcome, and could be a nice way to help improve this project. If you want to contribute you can open a pull request on the [GitHub repository](https://github.com/stefanobartoletti/bricks).
 :::
