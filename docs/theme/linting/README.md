@@ -29,7 +29,7 @@ npm run lint
 It runs ESlint, Stylelint and phpcs at once.
 
 ::: warning
-Please note that in order to run `phpcs` you need to install Composer dependencies, by runnign `composer install`.
+Please note that in order to run `phpcs` you need to install Composer dependencies, by running `composer install`.
 :::
 
 Individual scripts for each linter are also available.
@@ -95,5 +95,5 @@ composer lint
 </code-group>
 
 ::: warning
-Please note that in order to run `phpcs` you need to install Composer dependencies, by runnign `composer install`.
+Please note that in order to run `phpcs` you need to install Composer dependencies, by running `composer install`.
 :::

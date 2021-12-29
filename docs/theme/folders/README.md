@@ -57,7 +57,7 @@ NPM dependencies. Automatically created during installation, it should not be mo
 
 ### `languages`
 
-Translations support. The source `template.pot` template file is located here, you shuld put here also actual `*.po` and `*.mo` translation files (more details on [Localization](/theme/localization/) page).
+Translations support. The source `template.pot` template file is located here, you should put here also actual `*.po` and `*.mo` translation files (more details on [Localization](/theme/localization/) page).
 
 ### `src`
 
@@ -81,7 +81,7 @@ Source Sass files (will be optimized by PurgeCSS and Autoprefixer).
 
 ### `templates`
 
-Template files partials, to be called with `get_template_part()`. Bricks templates are modularized and split into partial files, in order to keep an ordered stucture and provide a component-like development experience.
+Template files partials, to be called with `get_template_part()`. Bricks templates are modularized and split into partial files, in order to keep an ordered structure and provide a component-like development experience.
 
 ::: tip
 You are encouraged to take advantage of [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/) and modularize your own custom templates as well, to keep your code clean, simple and easily maintainable.

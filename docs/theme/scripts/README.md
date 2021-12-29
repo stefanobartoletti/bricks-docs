@@ -51,7 +51,7 @@ npm run watch
 This script starts both [Gulp watcher](https://gulpjs.com/docs/en/getting-started/watching-files/) and [BrowserSync](https://www.browsersync.io/), to automatically compile modified resources on-the-fly and inject them in your browser, during local development (like **dev**, it uses `NODE_ENV=development` value).
 
 ::: tip
-BrowserSync proxy server can be acessed by default from port `3000`, and its configuration UI from `3001`. When you run `yarn watch`, full URLs will be displayed on the terminal output.
+BrowserSync proxy server can be accessed by default from port `3000`, and its configuration UI from `3001`. When you run `yarn watch`, full URLs will be displayed on the terminal output.
 :::
 
 ### Compile (Production Environment)
@@ -80,9 +80,9 @@ Linting scripts are detailed on the [Linting](/theme/linting/) page of this docu
 
 ## Tasks
 
-Scripts described above should be sufficient in most cases, but if needed, Gulp is configured to expose indivudual sub-task that can be run separately, to quickly recompile a single resource type. When running tasks this way `NODE_ENV=development` is used, so resources won't be optimized for production.
+Scripts described above should be sufficient in most cases, but if needed, Gulp is configured to expose individual sub-task that can be run separately, to quickly recompile a single resource type. When running tasks this way `NODE_ENV=development` is used, so resources won't be optimized for production.
 
-Since these sub-tasks are not intended to be regularly used during the development process, they are not defined as scripts within `package.json` and should be run direclty with Gulp.
+Since these sub-tasks are not intended to be regularly used during the development process, they are not defined as scripts within `package.json` and should be run directly with Gulp.
 
 ### CSS
 

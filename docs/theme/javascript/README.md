@@ -16,7 +16,7 @@ Gulp takes any `*.js` file placed **directly** inside `src/js` as a source, and 
 
 By default, two of these top-level files are included:
 
--   **`scripts.js`**, the main file which acts as the index where all other single sub-modules are included. You should not write your scripts here, buth rather use sub-files.
+-   **`scripts.js`**, the main file which acts as the index where all other single sub-modules are included. You should not write your scripts here, but rather use sub-files.
 -   **`bootstrap.js`**, that bundles together Bootstrap and its required dependency Popper.
 
 Your own custom scripts should be written in their own files, placed in sub-folders of `src/js`, that you must then individually include in `scripts.js`.
