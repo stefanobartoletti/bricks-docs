@@ -20,5 +20,5 @@ Using `brk_breadcrumbs()` instead of their native functions has two main advanta
 -   it add Bootstrap CSS classes to the breadcrumbs, allowing for a visual integration with the rest of the site and for an easier customization with Bootstrap variables.
 
 ::: tip
-Yoast and RankMath breadcrumbs functions are of course availabe to be used even by themselves, if for some reason you don't need the integration that Bricks provides to you.
+Yoast and RankMath breadcrumbs functions are of course available to be used even by themselves, if for some reason you don't need the integration that Bricks provides to you.
 :::

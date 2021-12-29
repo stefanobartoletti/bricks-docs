@@ -34,13 +34,13 @@ The scripts are included from `src/js/bootstrap.js`, which includes both Bootstr
 
 By default the full Bootstrap is included, this should be the optimal option for most projects.
 
-If you need to fine tune which components to include to reduce the size of the final bundle, you should comment the follwing line
+If you need to fine tune which components to include to reduce the size of the final bundle, you should comment the following line
 
 ```js
 import 'bootstrap';
 ```
 
-and uncomment only the component thet you need to import, i.e.
+and uncomment only the component that you need to import, i.e.
 
 ```js
 import Alert from 'bootstrap/js/dist/alert';
@@ -58,5 +58,5 @@ import Dropdown from 'bootstrap/js/dist/dropdown';
 ```
 
 ::: warning
-You should choose only one option, do not include both the full Boostrap package and single components individually. Read [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/webpack/#importing-javascript) for more details.
+You should choose only one option, do not include both the full Bootstrap package and single components individually. Read [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/webpack/#importing-javascript) for more details.
 :::

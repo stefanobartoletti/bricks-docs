@@ -20,7 +20,7 @@ Bricks tries to provide a reasonable setup valid for most projects, but if your 
 
 ### `brk_disable_gutenberg()`
 
-This function disables Gutenberg Block Editor, WordPress internal page builder, and restores the classic editor in all pages. It also disables it on ther widget management panel.
+This function disables Gutenberg Block Editor, WordPress internal page builder, and restores the classic editor in all pages. It also disables it on the widget management panel.
 
 It also prevents Gutenberg CSS to be loaded on the site's frontend.
 
@@ -44,7 +44,7 @@ add_action('init', 'brk_disable_emojis');
 
 ### `brk_disable_oembed()`
 
-WordPress natively supports oEmbed: thie feature makes your public posts and pages embeddable in other websites.
+WordPress natively supports oEmbed: this feature makes your public posts and pages embeddable in other websites.
 
 This feature is not typically required in every project, and Bricks disables it by default to prevent loading unnecessary resources.
 
@@ -68,7 +68,7 @@ add_action('init', 'brk_disable_query_strings');
 
 ### `brk_jquery_footer()`
 
-This function is used to load jQuery from the site footer instead of the head. This can improve the overall perfomance of the site.
+This function is used to load jQuery from the site footer instead of the head. This can improve the overall performance of the site.
 
 This function also prevents jQuery Migrate to be loaded. This script provides legacy code used by outdated themes and plugins, but it is not required in new projects, such as those where Bricks could be used.
 
