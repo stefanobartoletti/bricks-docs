@@ -2,6 +2,7 @@
   base = "/"
   publish = "dist/"
   command = "yarn build"
+  NODE_VERSION = "14"
 
 [[redirects]]
   from = "https://bricks-docs.netlify.app"
