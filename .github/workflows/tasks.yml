@@ -1,0 +1,22 @@
+name: Tasks
+
+on: [ pull_request ]
+
+jobs:
+  yarn-install:
+    name: Yarn Install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: DerYeger/yarn-setup-action@master
+        with:
+          node-version: 14
+
+  yarn-build:
+    name: Yarn Build
+    runs-on: ubuntu-latest
+    needs: yarn-install
+    steps:
+      - uses: DerYeger/yarn-setup-action@master
+        with:
+          node-version: 14
+      - run: yarn build
