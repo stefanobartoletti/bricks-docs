@@ -47,7 +47,8 @@ module.exports = {
             { text: 'Changelog', link: 'https://github.com/stefanobartoletti/bricks/blob/master/CHANGELOG.md' },
         ],
         algolia: {
-            apiKey: 'fdfc180ae834b22f0171e561027a3533',
+            appId: 'QQ5KESATII',
+            apiKey: '5973f724dabe07fed045e22eadfb0b3b',
             indexName: 'bricks-wp'
         },
         sidebar: {
