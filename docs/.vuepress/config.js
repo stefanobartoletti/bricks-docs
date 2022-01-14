@@ -48,7 +48,7 @@ module.exports = {
         ],
         algolia: {
             appId: 'QQ5KESATII',
-            apiKey: '5973f724dabe07fed045e22eadfb0b3b',
+            apiKey: 'ef2372331a9e36a57246e10c6dff0419',
             indexName: 'bricks-wp'
         },
         sidebar: {
