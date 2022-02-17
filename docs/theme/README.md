@@ -21,7 +21,7 @@ It is lightweight and SEO friendly, by optimizing all of its assets and using se
 -   [Bootstrap 5](https://getbootstrap.com/) (compiled from source Sass and JavaScript files)
 -   [WP Bootstrap Navwalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker)
 -   Custom [Gulp](https://gulpjs.com/) tasks
--   [Font Awesome 5](https://fontawesome.com/) (*SVG with JavaScript* version, parsed and minified by [gulp-fa-minify](https://github.com/FA-Minify/gulp-fa-minify))
+-   [Font Awesome 6](https://fontawesome.com/) (*SVG with JavaScript* version, parsed and minified by [gulp-fa-minify](https://github.com/FA-Minify/gulp-fa-minify))
 -   CSS bundling, including [Autoprefixer](https://autoprefixer.github.io/) and [PurgeCSS](https://purgecss.com/)
 -   JavaScript bundling with [Rollup](https://www.rollupjs.org/) and [Babel](https://babeljs.io/)
 -   Code linting with [ESLint](https://eslint.org/), [Stylelint](https://stylelint.io/) and [phpcs](https://github.com/squizlabs/PHP_CodeSniffer).
