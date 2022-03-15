@@ -61,8 +61,6 @@ import Dropdown from 'bootstrap/js/dist/dropdown';
 You should choose only one option, do not include both the full Bootstrap package and single components individually. Read [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/webpack/#importing-javascript) for more details.
 :::
 
-
-
 ## Pattern Library
 
 Bricks includes a special **Pattern Library** page, that can be used to define and showcase the custom Bootstrap theme, as defined from `src/sass/_theme.scss`.

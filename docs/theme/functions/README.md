@@ -12,11 +12,11 @@ Like everything else in this theme, `functions.php` is modularized, and its part
 
 ### `setup.php`
 
-WordPress standard theme setup, where theme supports are registered. (Read about [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/) on the WordPress docs for reference).
+WordPress standard theme setup, where theme supports are registered. (Read about [add\_theme\_support()](https://developer.wordpress.org/reference/functions/add_theme_support/) on the WordPress docs for reference).
 
 ### `imagesizes.php`
 
-Image sizes definitions. These are technically part of the theme setup as described above, and placed on a separate file for convenience. These definitions are meant to be edited on a per-project basis, according to specific sizes required by custom templates (Read about [add_image_size()](https://developer.wordpress.org/reference/functions/add_image_size/) on the WordPress docs for reference).
+Image sizes definitions. These are technically part of the theme setup as described above, and placed on a separate file for convenience. These definitions are meant to be edited on a per-project basis, according to specific sizes required by custom templates (Read about [add\_image\_size()](https://developer.wordpress.org/reference/functions/add_image_size/) on the WordPress docs for reference).
 
 ### `enqueues.php`
 
