@@ -18,7 +18,7 @@ With this method, it is possible to create a custom Bootstrap theme. A subset of
 
 This  file includes all the most important utility variables sourced directly from `node_modules/bootstrap/scss/_variables.scss`, allowing to customize colors, typography, layout and set general options (read more about [customizing Bootstrap](https://getbootstrap.com/docs/5.0/customize/overview/) in its official documentation).
 
-Variables pertaining to single components should be included manually. You can refer to the official Bootstrap Documentation for variables used in each component (i.e. https://getbootstrap.com/docs/5.0/components/buttons/#variables), if you need to customize them you can copy/paste and customize these variables directly inside `src/sass/_theme.scss`.
+Variables pertaining to single components should be included manually. You can refer to the official Bootstrap Documentation for variables used in each component (i.e. [button variables](https://getbootstrap.com/docs/5.0/components/buttons/#variables)), if you need to customize them you can copy/paste and customize these variables directly inside `src/sass/_theme.scss`.
 
 ::: tip
 You are strongly encouraged to take advantage of this feature: with a Bootstrap custom theme a great deal of styling can be made directly from the source, this way less custom CSS rules are required afterwards. This allows for an easier development experience and better performances, thanks to a smaller final CSS bundle.
@@ -59,4 +59,18 @@ import Dropdown from 'bootstrap/js/dist/dropdown';
 
 ::: warning
 You should choose only one option, do not include both the full Bootstrap package and single components individually. Read [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/webpack/#importing-javascript) for more details.
+:::
+
+## Pattern Library
+
+Bricks includes a special **Pattern Library** page, that can be used to define and showcase the custom Bootstrap theme, as defined from `src/sass/_theme.scss`.
+
+This page is particularly handy to create a custom Bootstrap Theme, as it provides a centralized place to preview all the basic design definitions, from colors and typography to full components.
+
+The Pattern Library is available as a [Custom Page Template](https://developer.wordpress.org/themes/template-files-section/page-template-files/#creating-custom-page-templates-for-global-use), that should manually assigned to a WordPress page.
+
+![Pattern Library](./pattern-library.png)
+
+::: tip
+A preview of the Pattern Library is available [here](https://bricks.sviluppo.host/pattern-library/).
 :::
