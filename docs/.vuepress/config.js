@@ -45,6 +45,7 @@ module.exports = {
             { text: 'Integrations', link: '/integrations/' },
             { text: 'About', link: '/about/' },
             { text: 'Changelog', link: 'https://github.com/stefanobartoletti/bricks/blob/master/CHANGELOG.md' },
+            { text: 'Demo', link: 'https://bricks.sviluppo.host' },
         ],
         algolia: {
             appId: 'QQ5KESATII',
@@ -110,14 +111,6 @@ module.exports = {
                     children: [
                         '/integrations/aos/',
                         '/integrations/swiper/',
-                    ]
-                },
-            ],
-            '/changelog/': [
-                {
-                    collapsable: false,
-                    children: [
-                        '/changelog/',
                     ]
                 },
             ],
