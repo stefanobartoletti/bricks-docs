@@ -71,6 +71,3 @@ The Pattern Library is available as a [Custom Page Template](https://developer.w
 
 ![Pattern Library](./pattern-library.png)
 
-::: tip
-A preview of the Pattern Library is available [here](https://bricks.sviluppo.host/pattern-library/).
-:::
