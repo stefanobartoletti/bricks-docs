@@ -60,3 +60,19 @@ import Dropdown from 'bootstrap/js/dist/dropdown';
 ::: warning
 You should choose only one option, do not include both the full Bootstrap package and single components individually. Read [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/webpack/#importing-javascript) for more details.
 :::
+
+
+
+## Pattern Library
+
+Bricks includes a special **Pattern Library** page, that can be used to define and showcase the custom Bootstrap theme, as defined from `src/sass/_theme.scss`.
+
+This page is particularly handy to create a custom Bootstrap Theme, as it provides a centralized place to preview all the basic design definitions, from colors and typography to full components.
+
+The Pattern Library is available as a [Custom Page Template](https://developer.wordpress.org/themes/template-files-section/page-template-files/#creating-custom-page-templates-for-global-use), that should manually assigned to a WordPress page.
+
+![Pattern Library](./pattern-library.png)
+
+::: tip
+A preview of the Pattern Library is available [here](https://bricks.sviluppo.host/pattern-library/).
+:::
