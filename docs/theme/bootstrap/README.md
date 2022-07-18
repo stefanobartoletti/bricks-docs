@@ -70,4 +70,3 @@ This page is particularly handy to create a custom Bootstrap Theme, as it provid
 The Pattern Library is available as a [Custom Page Template](https://developer.wordpress.org/themes/template-files-section/page-template-files/#creating-custom-page-templates-for-global-use), that should manually assigned to a WordPress page.
 
 ![Pattern Library](./pattern-library.png)
-
