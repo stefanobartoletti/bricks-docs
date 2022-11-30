@@ -26,11 +26,11 @@ module.exports = {
                 gtm: 'GTM-NNXNK4M',
             }
         ],
-        [
-            'sitemap', {
-                hostname: 'https://bricks.stefanobartoletti.it'
-            },
-        ],
+        // [
+        //     'sitemap', {
+        //         hostname: 'https://bricks.stefanobartoletti.it'
+        //     },
+        // ],
         [
             'vuepress-plugin-canonical', {
               baseURL: 'https://bricks.stefanobartoletti.it',
