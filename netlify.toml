@@ -12,11 +12,17 @@
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
-[[redirects]]
-  from = "https://bricks-docs.netlify.app"
-  to = "https://www.stefanobartoletti.it"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "https://bricks-docs.netlify.app"
+#   to = "https://www.stefanobartoletti.it"
+#   status = 301
+#   force = true
+
+# [[redirects]]
+#   from = "https://bricks.stefanobartoletti.it"
+#   to = "https://www.stefanobartoletti.it"
+#   status = 301
+#   force = true
 
 [[headers]]
   for = "/*"

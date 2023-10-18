@@ -1,0 +1,7 @@
+# Netlify redirects
+# https://docs.netlify.com/routing/redirects/
+
+https://bricks-docs.netlify.app         https://www.stefanobartoletti.it    301!
+https://bricks-docs.netlify.app/*       https://www.stefanobartoletti.it    301!
+https://bricks.stefanobartoletti.it     https://www.stefanobartoletti.it    301!
+https://bricks.stefanobartoletti.it/*   https://www.stefanobartoletti.it    301!
